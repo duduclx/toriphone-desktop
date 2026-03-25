@@ -40,7 +40,7 @@ const About = () => {
               <Text pr="2" fontWeight="bold">
                 {t("about.version")} :
               </Text>
-              <Text>0.4.29-2507</Text>
+              <Text>0.5.0</Text>
             </Box>
             <Box display="flex">
               <Text pr="2" fontWeight="bold">
