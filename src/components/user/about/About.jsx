@@ -54,7 +54,6 @@ const About = () => {
               </Text>
               <Text>{user.engineVersion}</Text>
             </Box>
-            <Text as="a" href="https://toriphone.fr/cgu" target="_blank" color="blue.400">{t("about.cgu")}</Text>
             <Text>Copyright 2024 - 2025 ToriPhone {t("about.copyright")}</Text>
           </VStack>
         </Box>
