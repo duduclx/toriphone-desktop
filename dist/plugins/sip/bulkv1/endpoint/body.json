@@ -1,0 +1,36 @@
+{
+    "label": "{{ label }}",
+    "name": "bulk_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid":"{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["identify_by", "header,auth_username,username"],
+        ["from_user", "{{ username }}"],
+        ["rewrite_contact", "yes"],
+        ["send_rpid", "yes"],
+        ["allow", "!all,ulaw"]
+    ],
+    "registration_section_options": [
+        ["expiration", "25"],
+        ["client_uri", "sip:{{ username }}@sip.bulkvs.com:5060"],
+        ["server_uri", "sip:sip.bulkvs.com:5060"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@sip.bulkvs.com"]
+    ],
+    "identify_section_options": [
+        ["match", "sip.bulkvs.com"],
+        ["match", "162.249.171.198"],
+        ["match", "76.8.29.198"],
+        ["match", "69.12.88.198"],
+        ["match", "199.255.157.198"]
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "label": "{{ label }}-{{ trunk_type }}",
+    "name": "inovatel_trunk_{{ trunk_type }}_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["identify_by", "header"],
+        ["from_domain", "{{ server }}"],
+        ["send_pai", "yes"],
+        ["allow", "!all,ulaw"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ server }}"]
+    ],
+    "identify_section_options": [
+        ["match_header", "To: /<sip:{{ did_num }}@.*>/"]
+    ]
+}

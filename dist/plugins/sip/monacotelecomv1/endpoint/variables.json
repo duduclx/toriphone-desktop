@@ -1,0 +1,32 @@
+{
+    "variables": [
+        {
+            "name": "label",
+            "label": [
+                {"language": "fr_CA", "value": "Étiquette"},
+                {"language": "fr_FR", "value": "Étiquette"},
+                {"language": "en_US", "value": "Label"}
+            ],
+            "required": true,
+            "default": "Monaco Telecom"
+        },
+        {
+            "name": "username",
+            "label": [
+                {"language": "fr_CA", "value": "Nom d'utilisateur"},
+                {"language": "fr_FR", "value": "Nom d'utilisateur"},
+                {"language": "en_US", "value": "Username"}
+            ],
+            "required": true
+        },
+        {
+            "name": "password",
+            "label": [
+                {"language": "fr_CA", "value": "Mot de passe"},
+                {"language": "fr_FR", "value": "Mot de passe"},
+                {"language": "en_US", "value": "Password"}
+            ],
+            "required": true
+        }
+    ]
+}

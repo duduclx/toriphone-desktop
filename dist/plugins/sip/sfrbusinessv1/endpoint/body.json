@@ -1,0 +1,18 @@
+{
+    "label": "{{ label }}",
+    "name": "sfrbusiness_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["send_pai", "no"],
+        ["direct_media", "no"],
+        ["send_diversion", "no"],
+        ["allow", "!all,alaw"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ domain }}:{{ port }}"]
+    ],
+    "identify_section_options": [
+        ["match", "{{ domain }}"]
+    ]
+}

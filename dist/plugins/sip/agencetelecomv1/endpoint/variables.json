@@ -1,0 +1,77 @@
+{
+    "variables": [
+        {
+            "name": "label",
+            "label": [
+                {"language": "fr_CA", "value": "Étiquette"},
+                {"language": "fr_FR", "value": "Étiquette"},
+                {"language": "en_US", "value": "Label"}
+            ],
+            "required": true,
+            "default": "Agence Telecom"
+        },
+        {
+            "name": "domain",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur Proxy"},
+                {"language": "fr_FR", "value": "Serveur Proxy"},
+                {"language": "en_US", "value": "Proxy Server"}
+            ],
+            "required": true,
+            "default": "192.168.22.100",
+            "choices":[
+                "192.168.22.100",
+                "192.168.22.102"
+            ]
+        },
+        {
+            "name": "port",
+            "label": [
+                {"language": "fr_CA", "value": "Port Serveur Proxy"},
+                {"language": "fr_FR", "value": "Port Serveur Proxy"},
+                {"language": "en_US", "value": "Proxy Server Port"}
+            ],
+            "required": true,
+            "default": "5060",
+            "choices":[
+                "5060",
+                "5070"
+            ]
+        },
+        {
+            "name": "client_ref",
+            "label": [
+                {"language": "fr_CA", "value": "Ref. Client"},
+                {"language": "fr_FR", "value": "Ref. Client"},
+                {"language": "en_US", "value": "Ref. Client"}
+            ],
+            "required": true,
+            "default": ""
+        },
+        {
+            "name": "sfr_sbc",
+            "label": [
+                {"language": "fr_CA", "value": "SBC SFR"},
+                {"language": "fr_FR", "value": "SBC SFR"},
+                {"language": "en_US", "value": "SFR SBC"}
+            ],
+            "required": true,
+            "default": "85.169.73.0",
+            "choices":[
+                "85.169.73.0",
+                "77.154.162.150",
+                "77.154.162.70"
+            ]
+        },
+        {
+            "name": "x_tenant_trunk",
+            "label": [
+                {"language": "fr_CA", "value": "Ref. X-Tenant-Trunk"},
+                {"language": "fr_FR", "value": "Ref. X-Tenant-Trunk"},
+                {"language": "en_US", "value": "Ref. X-Tenant-Trunk"}
+            ],
+            "required": false,
+            "default": ""
+        }
+    ]
+}

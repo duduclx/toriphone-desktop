@@ -1,0 +1,1947 @@
+{
+  "about": {
+    "title": "A propos",
+    "theme": "Thème",
+    "version": "Version",
+    "compatibility": "Compatibilité",
+    "copyright":  "tous droits réservés"
+  },
+  "sidebar": {
+    "sidebar_title": "Paramètres",
+    "sidebar_menu_about": "A propos",
+    "sidebar_menu_logout": "Se déconnecter",
+    "loading": "Chargement...",
+    "tenant_unknow": "Tenant inconnu",
+    "users_title": "Gestion des utilisateurs",
+    "users": "Utilisateurs",
+    "phones_title": "Gestion des Téléphones",
+    "devices": "Téléphones",
+    "funckey_templates": "Modèles de touches de fonction",
+    "lines": "Lignes",
+    "voicemails": "Répondeurs",
+    "call_title": "Gestion des appels",
+    "schedules": "Horaires",
+    "bsfilters": "Filtres Patron/Secrétaire",
+    "groups": "Groupes d'appels",
+    "callpickup": "Groupe d'interception",
+    "parkings": "Parkings",
+    "pagings": "Interphones",
+    "phonebook_title": "Annuaires",
+    "phonebooks": "Annuaires",
+    "profiles": "Profils",
+    "contacts": "Contacts",
+    "sources": "Sources",
+    "callcenter_title": "Centre d'appels",
+    "agents": "Agents",
+    "queues": "Files d'attente",
+    "skills": "Compétences",
+    "skillsrules": "Règles de compétence",
+    "svi": "Serveur Vocal Intéractif",
+    "switchboard": "Standard téléphonique",
+    "conferences_title": "Conférences",
+    "conferences": "Conférences",
+    "ingress": "Ingress",
+    "meetings": "Meetings",
+    "audio_title": "Librairie Audio",
+    "sounds": "Fichier sonores",
+    "mohs": "Musique d'attente",
+    "recordingAnnouncement": "Annonce d'enregistrement",
+    "call_configuration_title": "Configuration des appels",
+    "incalls": "Appels entrant",
+    "outcalls": "Appels sortant",
+    "callpermissions": "Autorisations d'appel",
+    "contexts": "Contexts",
+    "trunks": "Trunks",
+    "phoneNumbers": "Numéros d'appelant",
+    "blocklist": "Numéros bloqués",
+    "sipTemplates": "Modèles SIP",
+    "sipTransports": "Transport SIP",
+    "extensions": "Extensions",
+    "localization": "Langue",
+    "identity_title": "Gestion des identités",
+    "identities": "Identités",
+    "policies": "Règles de sécurité",
+    "policy_group": "Groupes de sécurité",
+    "auths": "Authentifications",
+    "auth_ldap": "Authentification LDAP",
+    "auth_saml": "Authentification SSO",
+    "auth_external": "Authentification externe",
+    "services_title": "Services",
+    "plugins": "Modules",
+    "external_app": "Applications externes",
+    "applications": "Applications",
+    "webhooks": "Webhooks",
+    "activities_title": "Activités",
+    "activities_cdrs": "Historique d'appels",
+    "activities_calls": "Appels en cours",
+    "activities_sessions": "Sessions en cours",
+    "activities_subscriptions": "Abonnements",
+    "report_title": "Statistiques",
+    "report_agents": "Statistiques des agents",
+    "report_queues": "Statistiques des files d'attente",
+    "monitoring": "Surveillance",
+    "monitoring_services": "Etat des services",
+    "retention": "Retention",
+    "global_configuration": "Configuration globale",
+    "tenants": "Tenants",
+    "access_feature": "Accès aux Fonctionnalités",
+    "confbridge": "Gestion des Conférences",
+    "voicemailGeneral": "Gestion Messagerie",
+    "rtp": "Configuration RTP",
+    "features": "Fonctionnalités",
+    "pjsip": "Configuration PJSIP",
+    "iax": "Configuration IAX",
+    "dhcp": "Configuration DHCP",
+    "provisioning": "Configuration provisionnement",
+    "provisioningDevice": "Configuration Périphériques",
+    "devicesPlugins": "Plugins périphériques"
+  },
+  "common": {
+    "abort": "Abandon",
+    "acl": "Acl",
+    "acl_add": "Ajouter une ACL",
+    "acls": "Liste de contrôle d'accès",
+    "actions": "Actions",
+    "add": "Ajouter",
+    "add_option": "Ajouter une option",
+    "agent": "Agent",
+    "agents": "Agents",
+    "agents_select": "Sélectionner un ou plusieurs agents",
+    "agents_helper": "Le statut de l'agent est distinct de celui de l'utilisateur. Un agent peut se connecter / déconnecter, se mettre en pause uniquement au niveau de la file d'attente.",
+    "allow": "Autoriser",
+    "alphabetical": "Par ordre alphabétique",
+    "announce_caller": "Annoncer l'appelant",
+    "announce_hold_time_on_entry": "Annoncer le temps d'attente à l'entrée",
+    "announce_sound": "Son d'annonce",
+    "answer": "Répondre",
+    "answered": "Répondu",
+    "aor": "AOR",
+    "application": "Application",
+    "ask_password": "Demander le mot de passe",
+    "attach_audio": "Joindre le fichier audio",
+    "auth_enabled": "Activer l'authentification",
+    "auth_method": "Méthode d'authentification",
+    "authentication": "Authentification",
+    "back": "Retour",
+    "backend": "Backend",
+    "blocked":"Bloqué",
+    "boss": "Patron",
+    "busy": "Occupé",
+    "browse": "parcourir",
+    "caller_id": "Identifiant de l'appelant",
+    "caller_id_mode": "Mode de présentation de l'appelant",
+    "caller_id_name": "Nom d'identification de l'appelant",
+    "caller_notification": "Lier la notification à l'appelant",
+    "caller": "Appelant",
+    "callers": "Appelants",
+    "call_permission": "Droits d'appels",
+    "call_permission_select": "Sélectionner un ou plusieurs droits d'appels",
+    "cancel": "Annuler",
+    "choice": "Choix",
+    "choice_add": "Ajouter un choix",
+    "choice_invalid": "Choix invalides",
+    "choice_remove": "Supprimer ce choix",
+    "certificate_path": "Chemin du certificat",
+    "close": "Fermer",
+    "command_select": "Entrer une commande",
+    "command_helper": "exemple: goto(123)",
+    "copy": "Copier dans le press papier",
+    "copy_modal_title": "Aperçu de la ressource",
+    "copy_title": "Copié !",
+    "copy_description": "Le contenu à été copié dans le press papier.",
+    "conference": "Conférence",
+    "conference_select": "Sélectionner une conférence",
+    "congestion": "Congestion",
+    "context": "Context",
+    "contexts_included": "contexts inclus",
+    "custom": "Personnalisé",
+    "data_quality": "Qualité des données",
+    "date": "Date",
+    "delete": "Supprimer",
+    "delete_messages": "supprimer les messages",
+    "deny": "Refuser",
+    "description": "Description",
+    "destination": "Destination",
+    "destination_name": "Nom de la destination",
+    "did": "SDA",
+    "did_length": "Longueur du SDA",
+    "direction": "Direction",
+    "diversions": "Détournements",
+    "dtmf": "Code DTMF",
+    "dtmf_hangup_callee_enabled": "L'appelé peut raccrocher par code *0",
+    "dtmf_hangup_caller_enabled": "L'appelant peut raccrocher par code *0",
+    "dtmf_record_callee_enabled": "L'appelé peut enregistrer par code *26",
+    "dtmf_record_caller_enabled": "L'appelant peut enregistrer par code *26",
+    "dtmf_record_toggle": "Basculer l'enregistrement par code *3 (pause, reprise)",
+    "dtmf_transfer_callee_enabled": "L'appelé peut transférer par code *1 (direct) ou *2 (indirect)",
+    "dtmf_transfer_caller_enabled": "L'appelant peut transférer par code *1 (direct) ou *2 (indirect)",
+    "duplex": "Duplex",
+    "duration": "Durée",
+    "email": "Email",
+    "enabled": "Activé",
+    "end": "Fin",
+    "endpoint": "Point de terminaison",
+    "english": "Anglais",
+    "error": "Erreur",
+    "events": "Evènements",
+    "exceptional_periods": "Périodes de fermeture exceptionnelle",
+    "extension": "Extension",
+    "extensions": "Extensions",
+    "extension_add": "Ajouter une extension",
+    "extension_select": "Sélectionner une extension",
+    "external_prefix": "Préfixe externe",
+    "fallbacks": "Non réponse",
+    "fail": "Echoué",
+    "fax": "Fax",
+    "feature": "Fonctionnalité",
+    "file_add": "Ajouter un fichier",
+    "file_empty": "Aucun fichier sélectionné",
+    "files": "Fichiers",
+    "files_count": "Nombre de fichiers",
+    "filter": "Filtrer",
+    "firstname": "Prénom",
+    "format": "Format",
+    "forward": "Renvois",
+    "forwards": "Renvois",
+    "french": "Français",
+    "french_canadian": "Français canadien",
+    "general": "General",
+    "greeting": "Message d'accueil",
+    "group": "Groupe",
+    "group_select": "Sélectionner un groupe",
+    "groups": "Groupes",
+    "hangup": "Raccrocher",
+    "hangup_select": "Sélectionner un mode",
+    "hangup_normal": "Normal",
+    "hangup_busy": "Occupé",
+    "hangup_congestion": "Congestion",
+    "host": "Hôte",
+    "https": "HTTPS",
+    "incall": "Appel entrant",
+    "incalls": "Appels entrant",
+    "identify": "Identifier",
+    "identities": "Identités",
+    "ignore_forward": "Ignorer les renvois",
+    "internal": "Appel interne",
+    "ivr": "SVI",
+    "ivr_select": "Sélectionner un standard téléphonique",
+    "key": "Clé",
+    "key_file": "Fichier de la clé",
+    "key_select": "Sélectionner une clé",
+    "label": "Label",
+    "language": "Langue",
+    "lastname": "Nom",
+    "line":"Ligne",
+    "line_add": "Ajouter une Ligne",
+    "logs": "Logs",
+    "mark_answered_elsewhere": "Marquer les appels comme répondus lorsqu'ils sont annulés",
+    "max_messages": "Nombre maximum de messages",
+    "members": "Membres",
+    "members_select": "Sélectionner un ou plusieurs membres",
+    "members_helper": "Le statut du membre dépend du statut de l'utilisateur.",
+    "menu": "Menu",
+    "method": "Méthode",
+    "mobile_phone": "Téléphone portable",
+    "mode": "Mode",
+    "moh": "Musique d'attente",
+    "moh_select": "Sélectionner une musique d'attente",
+    "month": "Mois",
+    "month_select": "Sélectionner un mois",
+    "month_day": "Jour du mois",
+    "month_day_select": "Sélectionner les jours du mois",
+    "name": "Nom",
+    "next": "Suivant",
+    "no_answer": "Pas de réponse",
+    "noanswer_destination": "Renvois sur non réponse",
+    "no_result": "Aucun Résultat",
+    "not_configured": "Non configuré",
+    "none": "Aucun",
+    "number": "Numéro",
+    "number_select": "Sélectionner un numéro",
+    "numbers": "Numéros",
+    "open_periods": "Périodes d'ouvertures",
+    "options": "Options",
+    "option_add": "Ajouter une option",
+    "outbound_auth": "Authentification sortante",
+    "outcall": "Appel sortant",
+    "outcall_select": "Sélectionner un appel sortant",
+    "outcalls": "Appels sortant",
+    "overwrite": "Ecraser",
+    "parking_select": "Sélectionner un parking",
+    "password": "Mot de passe",
+    "pin": "PIN",
+    "pin_admin": "Admin PIN",
+    "phone": "Téléphone",
+    "player": "Lecteur",
+    "policy": "Règles de sécurité",
+    "policy_select": "Sélectionner une règle de sécurité",
+    "policyGroup": "Groupes de sécurité",
+    "policyGroup_select": "Sélectionner un groupe de sécurité",
+    "port": "Port",
+    "prefix": "Préfixe",
+    "prepend": "Ajouter un préfixe",
+    "previous": "Précédent",
+    "protocol": "Protocol",
+    "purpose": "Usage",
+    "queue": "File d'attente",
+    "queue_select": "Sélectionner une File d'attente",
+    "queues": "Files d'attente",
+    "random": "Aléatoire",
+    "random_start": "Départ aléatoire, puis par ordre alphabétique",
+    "read_only": "Lecture seule",
+    "record": "Enregistrement",
+    "registration": "Inscription",
+    "registration_outbound_auth": "Inscription authentification sortante",
+    "retry_delay": "Delais avant nouvel essai",
+    "retry_on_timeout": "Appliquer un délai entre deux membres",
+    "ring_in_use": "Sonner si occupé",
+    "ring_on_hold": "Sonnerie d'attente",
+    "ring_strategy": "Stratégie de sonnerie",
+    "ring_time": "Temps de sonnerie de la destination",
+    "ring_time_helper": "Si vide, c'est le temps de sonnerie de la destination qui est pris en compte",
+    "rules": "Règles",
+    "rule_add": "Ajouter une règle",
+    "schedule": "Horaire",
+    "schedule_select": "Sélectionner un horaire",
+    "schedules": "Horaires",
+    "sda": "sda",
+    "search": "Rechercher",
+    "secretaries": "Secrétaires",
+    "select_all": "Sélectionner tout",
+    "service": "Service",
+    "shared": "Partagé",
+    "skills": "Compétences",
+    "skill_add": "Ajouter une compétence",
+    "skill_rule_label": "Règle de compétence",
+    "skill_rule_select": "Sélectionner une règle de compétence",
+    "skill_variables_label": "Variables des règles de compétences",
+    "skill_variables_select": "Clé = variable de la règle de compétence et valeur = valeur",
+    "skill_variables_helper": "ex: {\"lang\": \"english\", \"speed\": \"70\"}",
+    "sort": "Trier par",
+    "sound": "Audio",
+    "sound_skip": "Sauter",
+    "sound_no_answer": "Pas de réponse",
+    "sound_select": "Sélectionner un fichier audio",
+    "sound_player": "Lecteur audio",
+    "source": "Source",
+    "source_name": "Nom de la source",
+    "start": "Début",
+    "strategy": "Strategie",
+    "strip_digits": "Suppression de chiffres",
+    "subroutine": "Sous routine",
+    "switchboard": "Standard",
+    "switchboard_select": "Sélectionner un standard téléphonique",
+    "system_managed": "Contrôlé par le système",
+    "target": "Cible",
+    "text": "Texte",
+    "templates": "Modèles SIP",
+    "timeout": "Temps d'attente",
+    "timeout_destination": "Temps d'attente de la destination",
+    "timeout_destination_helper": "Temps d'attente avant de raccorcher",
+    "timezone": "Fuseau horaire",
+    "timezone_select": "Sélectionner un fuseau horaire",
+    "transport": "Transport",
+    "trunks": "Trunks",
+    "trunks_select": "Sélectionner un ou plusieurs trunks",
+    "type": "Type",
+    "update": "Mettre à jour",
+    "uri": "URI",
+    "url": "URL",
+    "username": "Nom d'utilisateur",
+    "user": "Utilisateur",
+    "user_select": "Sélectionner un utilisateur",
+    "user_timeout": "Temps d'attente de l'utilisateur",
+    "users": "Utilisateurs",
+    "value": "Valeur",
+    "verify_certificate": "Vérifier le certificat",
+    "version": "Version",
+    "voicemail": "Répondeur",
+    "voicemail_select": "Sélectionner un répondeur",
+    "voicemail_greeting_none": "Aucun",
+    "voicemail_greeting_busy": "Occupé",
+    "voicemail_greeting_unavailable": "Indisponible",
+    "voicemail_greeting_label": "Message d'accueil",
+    "voicemail_skip_instructions": "Passer les instructions",
+    "week_day": "Jour de la semaine",
+    "week_day_select": "Sélectionner les jours de la semaine"
+  },
+  "destinations": {
+    "type": {
+      "none": "Aucun",
+      "application":"Application",
+      "conference": "Conférence",
+      "custom": "Personnalisée",
+      "extension": "Extension",
+      "group": "Groupe",
+      "hangup": "Raccrocher",
+      "ivr": "Menu intéractif",
+      "outcall": "Appel sortant",
+      "queue": "File d'attente",
+      "sound": "Fichier audio",
+      "switchboard": "Standard",
+      "user": "Utilisateur",
+      "voicemail": "Répondeur"
+    },
+    "application": {
+      "callback_disa": "rappel disa",
+      "custom": "Personnalisé",
+      "directory": "Annuaire",
+      "disa": "disa",
+      "fax_to_mail": "fax to mail",
+      "voicemail": "Répondeur"
+    },
+    "funckeys": {
+      "position": "Position",
+      "label": "Etiquette",
+      "blf": "BLF",
+      "add": "Ajouter une touche de fonction",
+      "associate": "Associer un template de touches de fonction",
+      "funckey_select": "Sélectionner un template",
+      "destination": {
+        "default": "Sélectionner une destination",
+        "conference": "Conférence",
+        "custom": "Personnalisé",
+        "transfer": "Transfert",
+        "service": "Service",
+        "forward": "Renvois",
+        "onlinerec": "Enregistrement en ligne",
+        "group": "Groupe",
+        "groupmember": "Membre du group",
+        "parking": "Parking",
+        "park_position": "Position du parking",
+        "queue": "File d'attente",
+        "user": "Utilisateur",
+        "bsfilter": "Filtre d'appel"
+      },
+      "transfer": {
+        "blind": "Aveugle",
+        "attended": "Indirect"
+      },
+      "service": {
+        "enablevm": "Activer la messagerie vocale",
+        "vmusermsg": "Accéder à la messagerie vocale",
+        "vmuserpurge": "Supprimer les messages de la messagerie vocale",
+        "phonestatus": "Statut du téléphone",
+        "recsnd": "Enregistrement sonore",
+        "fwdundoall": "Désactiver tous les transferts",
+        "calllistening": "Ecouter les appels en ligne",
+        "directoyaccess": "Accès à l'annuaire",
+        "pickup": "Interception de groupe",
+        "callrecord": "Enregistrement d'appel",
+        "incallfilter": "Filtrage des appels entrants",
+        "enablednd": "Ne pas déranger"
+      },
+      "forward": {
+        "busy": "Activer / désactiver le renvoi sur occupation",
+        "noanswer": "Activer / désactiver le renvoi sur non réponse",
+        "unconditional": "Activer / désactiver le transfert inconditionnel"
+      },
+      "groupmember": {
+        "toggle": "Rejoindre ou quitter le groupe",
+        "join": "Rejoindre le groupe",
+        "leave": "Quitter le groupe"
+      }
+    }
+  },
+  "accessFeatures": {
+    "create": {
+      "title": "Créer un accès aux fonctionnalités"
+    },
+    "delete": {
+      "title": "Suppression de l'accès",
+      "subTitle": "Voulez-vous supprimer l'accès {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'accès {{name}}"
+    },
+    "list": {
+      "title": "Liste des accès aux fonctionnalités"
+    }
+  },
+  "agents": {
+    "conversation_time": "Conversation",
+    "login_time": "Connexion",
+    "pause_time": "Pause",
+    "from": "Du",
+    "until": "Au",
+    "create": {
+      "title": "Créer un agent"
+    },
+    "delete": {
+      "title": "Suppression de l'agent",
+      "subTitle": "Voulez-vous supprimer l'agent {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'agent {{name}}"
+    },
+    "list": {
+      "title": "Liste des agents"
+    }
+  },
+  "applications": {
+    "create": {
+      "title": "Créer une application"
+    },
+    "delete": {
+      "title": "Suppression de l'application",
+      "subTitle": "Voulez-vous supprimer l'application {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'application {{name}}"
+    },
+    "list": {
+      "title": "Liste des applications"
+    }
+  },
+  "authUsers": {
+    "create": {
+      "title": "Créer une identification"
+    },
+    "delete": {
+      "title": "Suppression d'une identité",
+      "subTitle": "Voulez-vous supprimer l'identité {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'identification {{name}}"
+    },
+    "list": {
+      "title": "Identités"
+    }
+  },
+  "backends": {
+    "title": "Authentifications",
+    "default_auth_method": "Méthode d'authentification par défaut",
+    "apply": "Appliquer"
+  },
+  "backendLdap": {
+    "protocol_security_none": "Aucun",
+    "success": {
+      "title": "Bravo !",
+      "description": "configuration LDAP mise à jour"
+    },
+    "reset": {
+      "title": "Bravo !",
+      "description": "configuration LDAP remise à zéro"
+    },
+    "one": {
+      "step_title": "Serveur",
+      "step_subTitle": "connexion",
+      "title": "Serveur",
+      "subTitle": "Informations nécesaires pour atteindre le serveur LDAP",
+      "host_help": "nom ou ip du serveur LDAP",
+      "port_help": "exemple: 389",
+      "user_base_dn": "Dn de ma base d'utilisateurs",
+      "user_base_dn_help": "exemple: CN=User,DC=example",
+      "protocol_security": "Sécurité du protocole",
+      "protocol_version": "Version du protocole"
+    },
+    "two": {
+      "step_title": "Utilisateurs",
+      "step_subTitle": "compte de service",
+      "title": "Compte de service",
+      "subTitle": "Ce compte sera utilisé pour effectuer les requêtes LDAP en lieu et place du compte LDAP de l'utilisation final",
+      "bind_dn": "Dn pour la recherche d'utilisateurs",
+      "bind_dn_help": "Le nom distinctif à utiliser lors de la liaison au serveur LDAP. Les formats possibles incluent User, DOMAIN\\User ou cn=User,…,dc=exemple,dc=org. exemple: cn=people,dc=example,dc=com",
+      "bind_password": "bind password",
+      "search_filter": "Filtres de recherche",
+      "search_filter_help": "Les variable disponibles sont username, user_login_attribute, user_email_attribute, user_base_dn. exemple :"
+    },
+    "three": {
+      "step_title": "Attributs",
+      "step_subTitle": "utilisateurs",
+      "title": "Attributs",
+      "subTitle": "Les utilisateurs peuvent se connecter avec leur nom d'utilisateur ou leur adresse e-mail",
+      "user_login_attribute": "Attribut de connexion utilisateur",
+      "user_login_attribute_help": "l'attribut qui identifie les utilisateurs dans le schéma LDAP (uid)",
+      "user_email_attribute": "Attribut de courrier électronique de l'utilisateur",
+      "user_email_attribute_help": "l'attribut de l'adresse email dans le schéma LDAP (mail)"
+    },
+    "delete": {
+      "title": "Suppression de l'authentification LDAP",
+      "subTitle": "Voulez-vous supprimer l'authentification LDAP ?"
+    },
+    "list": {
+      "title": "Authentification LDAP"
+    }
+  },
+  "backendSaml": {
+    "title": "Authentification SSO",
+    "acs_url": "URL ACS",
+    "acs_url_helper": "exemple: https://monserveur.fr/api/auth/0.1/saml/acs",
+    "domain_uuid": "Nom de domaine de l'organisation",
+    "domain_uuid_select": "Choisir un domaine",
+    "domain_uuid_helper": "Domaine du tenant pour l'authentification",
+    "entity_id": "URL du serveur d'identité",
+    "entity_id_helper": "id fournit par le fournisseur SSO, ex: http://entity.id",
+    "xml_helper": "Le fichier XML du fournisseur SSO",
+    "delete": {
+      "title": "Suppression de l'authentification SSO",
+      "subTitle": "Voulez-vous supprimer l'authentification SSO ?"
+    }
+  },
+  "blocklist": {
+    "title": "Liste des numéros bloqués"
+  },
+  "callfilters": {
+    "create": {
+      "title": "Ajouter un filtrage d'appel"
+    },
+    "delete": {
+      "title": "Suppression du filtrage d'appel",
+      "subTitle": "Voulez-vous supprimer le filtrage {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le filtrage d'appel {{name}}"
+    },
+    "list": {
+      "title": "Liste des filtres patron/secrétaire"
+    },
+    "strategiesOptions": {
+      "all_surrogates_then_all_recipients": "Secrétaires en même temps puis patron",
+      "linear_surrogates_then_all_recipients": "Secrétaires successivement puis patron",
+      "all_recipients_then_linear_surrogates": "Patron puis secrétaires successivement",
+      "all_recipients_then_all_surrogates": "Patron puis secrétaires en même temps",
+      "all": "Patron et secrétaires en même temps"
+    },
+    "all": "Tous",
+    "internal": "Interne",
+    "external": "Externe",
+    "source": "Pour les appels provenant de",
+    "boss_timeout": "Temps de sonnerie du patron",
+    "secretary_timeout": "Temps de sonnerie des secrétaires",
+    "noanswer_destination": "Renvois en cas de non réponse"
+  },
+  "callpermissions": {
+    "create": {
+      "title": "Ajouter une autorisation d'appel"
+    },
+    "delete": {
+      "title": "Suppression de l'autorisation d'appel",
+      "subTitle": "Voulez-vous supprimer l'autorisation {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'autorisation {{name}}"
+    },
+    "list": {
+      "title": "Liste des autorisations d'appel"
+    },
+    "password_help": "Le mot de passe doit comporter uniquement des chiffres. ex: 1234"
+  },
+  "callpickups": {
+    "create": {
+      "title": "Ajouter une interception d'appel"
+    },
+    "delete": {
+      "title": "Suppression de l'interception d'appel",
+      "subTitle": "Voulez-vous supprimer l'interception d'appel {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'interception d'appel {{name}}"
+    },
+    "list": {
+      "title": "Liste des interceptions"
+    },
+    "interceptors": "Intercepteurs",
+    "interceptors_group": "Groupe d'intercepteurs",
+    "targets": "Cibles",
+    "targets_group": "Groupes cibles"
+  },
+  "calls": {
+    "delete": {
+      "title": "Suppression de l'appel en cours",
+      "subTitle": "Voulez-vous supprimer l'appel {{name}} ?"
+    },
+    "list": {
+      "title": "Liste des appels en cours"
+    },
+    "caller_id": "Appelant",
+    "caller_num": "Numéro de l'appelant",
+    "peer_id": "Applelé",
+    "peer_num": "Numéro de l'appelé",
+    "time": "Heure d'appel",
+    "duration": "Durée"
+  },
+  "cdrs": {
+    "list": {
+      "title": "Liste des appels"
+    }
+  },
+  "confbridge": {
+    "default_user": "Utilisateur",
+    "default_bridge": "Conférence",
+    "add_key": "Ajouter",
+    "select_key": "Sélectionner une valeur",
+    "placeholder_path": "/path/to/file",
+    "placeholder_timeout": "durée en secondes, ex: 3600",
+    "placeholder_value": "entrer une valeur",
+    "placeholder_number": "entrer un chiffre",
+    "success_title": "Bravo !",
+    "success_description": "Configuration mise à jour.",
+    "list": {
+      "title": "Configuration globale des conférences"
+    }
+  },
+  "conferences": {
+    "announce_join_leave": "Annoncer lorsqu'un participant rejoint ou quitte la conférence",
+    "announce_user_count": "Annoncer le nombre de participant",
+    "announce_only_user": "Annoncer uniquement l'utilisateur",
+    "create": {
+      "title": "Ajouter une conférence"
+    },
+    "delete": {
+      "title": "Suppression de la conférence",
+      "subTitle": "Voulez-vous supprimer la conférence {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier la conférence {{name}}"
+    },
+    "list": {
+      "title": "Liste des conférences"
+    }
+  },
+  "contexts": {
+    "create": {
+      "title": "Ajouter un context"
+    },
+    "delete": {
+      "title": "Suppression du context",
+      "subTitle": "Voulez-vous supprimer le context {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le context {{name}}"
+    },
+    "list": {
+      "title": "Liste des contexts"
+    },
+    "context_form_title": "Contexts inclus",
+    "context_form_select": "Sélectionner un ou plusieurs contexts"
+  },
+  "dhcp": {
+    "pool_start": "Début de la plage",
+    "pool_start_placeholder": "1",
+    "pool_start_helper": "première adresse ip allouable",
+    "pool_end": "Fin de la plage",
+    "pool_end_placeholder": "254",
+    "pool_end_helper": "dernière adresse ip allouable",
+    "network_interfaces": "Interface réseaux",
+    "network_interfaces_placeholder": "ex: eth0, enp1s0",
+    "network_interfaces_helper": "La commande ip link show peut vous aider à trouver le nom de l'inteface",
+    "list": {
+      "title": "Configuration DHCP"
+    },
+    "success": {
+      "title": "Bravo !",
+      "description": "Configuration mise à jour."
+    }
+  },
+  "devices": {
+    "ip": "IP",
+    "mac": "Mac",
+    "config": "Configuration",
+    "description": "Description",
+    "model": "Modèle",
+    "plugin": "Plugin",
+    "vendor": "Fournisseur",
+    "version": "Version",
+    "status": "Etat",
+    "serial": "N° de série",
+    "synchronize": "Synchroniser",
+    "autoprov_reset": "Réinitialiser en autoprov",
+    "switchboard": "Standard téléphonique",
+    "sync": {
+      "fail": {
+        "title": "Echec !",
+        "description": "La synchronisation n'a pas fonctionnée."
+      },
+      "succes": {
+        "title": "Bravo !",
+        "description": "Le téléphone est synchronisé."
+      }
+    },
+    "reset": {
+      "fail": {
+        "title": "Echec !",
+        "description": "Le mode Autoprov n'a pas fonctionné"
+      },
+      "succes": {
+        "title": "Bravo !",
+        "description": "Le téléphone est en mode autoprov"
+      }
+    },
+    "create": {
+      "title": "Ajouter un téléphone"
+    },
+    "delete": {
+      "title": "Suppression d'un téléphone",
+      "subTitle": "Voulez-vous supprimer le téléphone {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le téléphone {{name}}"
+    },
+    "list": {
+      "title": "Liste des téléphones"
+    }
+  },
+  "devicesPlugins": {
+    "size": "Taille",
+    "list": {
+      "title": "Configuration des plugins des périphériques"
+    },
+    "success": {
+      "install": "Installation complète !",
+      "install_description": "Le plugin à été installé.",
+      "uninstall": "Désinstallation complète !",
+      "uninstall_description": "Le plugin à été désinstallé."
+    }
+  },
+  "extensions": {
+    "create": {
+      "title": "Ajouter une extension"
+    },
+    "delete": {
+      "title": "Suppression de l'extension",
+      "subTitle": "Voulez-vous supprimer l'extension {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'extension {{name}}"
+    },
+    "list": {
+      "title": "Liste des extensions"
+    },
+    "exten": "Extension",
+    "context": "Context",
+    "conf_id": "Conference",
+    "parking_id": "Parking",
+    "group_id": "Groupe",
+    "queue_id": "File",
+    "incall_id": "Incall",
+    "line_id": "Ligne",
+    "outcall_id": "Outcall"
+  },
+  "external": {
+    "client_id": "ID client",
+    "client_secret": "Secret client",
+    "fcm_api_key": "Clé API Firebase cloud message",
+    "fcm_sender_id": "Identifiant Firebase cloud message",
+    "ios_apn_certificate": "Certificat APN IOS",
+    "ios_apn_private": "Certificat privé APN IOS",
+    "is_sandbox": "Utiliser le bac à sable",
+    "create": {
+      "title": "Ajouter une authentification externe"
+    },
+    "delete": {
+      "title": "Suppression de l'authentification externe",
+      "subTitle": "Voulez-vous supprimer l'authentification externe {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'authentification externe {{name}}"
+    },
+    "list": {
+      "title": "Liste des authentifications externes"
+    }
+  },
+  "external_apps": {
+    "app": "Application pré-définie",
+    "app_select": "Sélectionner un type d'application",
+    "app_helper": "Ne pas changer le nom de l'application si il est mis par défaut",
+    "mobile_title": "Application mobile",
+    "web_title": "Application Web",
+    "stun_hostname": "Nom du serveur STUN",
+    "stun_port": "Port du serveur STUN",
+    "turn_hostname": "Nom du serveur TURN",
+    "turn_port": "Port du serveur TURN",
+    "portal_title": "Portail",
+    "portal_label": "Portail",
+    "portal_active": "Activer",
+    "portal_helper": "Activer la vérification de l'activation du serveur sur le portail",
+    "portal_url": "URL du portail",
+    "portal_url_placeholder": "exemple.fr",
+    "portal_url_helper": "Nom de domaine du server, ex: exemple.fr",
+    "portal_username": "Utilisateur",
+    "portal_username_placeholder": "admin",
+    "portal_username_helper": "Nom de l'utilisateur se connectant au portail",
+    "portal_password": "Mot de passe",
+    "portal_password_helper": "Mot de passe de l'utilisateur se connectant au portail",
+    "licence": "Licence",
+    "licence_active": "Activer",
+    "licence_helper": "Active la vérification de la licence sur le portail",
+    "licence_number": "Licence",
+    "licence_number_helper": "Doit correspondre à la licence que vous avez renseignée dans le portail",
+    "subscription_title": "Abonnement",
+    "subscription_label": "Abonnement",
+    "subscription_active": "Activer",
+    "subscription_helper": "Permet d'activer la prise en compte des abonnements",
+    "custom_title": "Configuration personnalisée",
+    "custom_config_key": "Clé",
+    "custom_config_value": "Valeur",
+    "custom_config_helper": "Ajoutez une paire clé/valeur à la configuration",
+    "custom_config_add": "Ajouter à la configuration",
+    "meeting_title": "Calendrier des réunions",
+    "meeting_label": "Calendrier des réunions",
+    "meeting_active": "Activer",
+    "meeting_helper": "Permet d'activer le calendrier des réunions",
+    "create": {
+      "title": "Ajouter une application externe"
+    },
+    "delete": {
+      "title": "Suppression de l'application externe",
+      "subTitle": "Voulez-vous supprimer l'application externe {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'application externe {{name}}"
+    },
+    "list": {
+      "title": "Liste des applications externes"
+    }
+  },
+  "features": {
+    "general": "General",
+    "app": "Applicationmap",
+    "feat": "Featuremap",
+    "exten": "Extension",
+    "add": "Ajouter",
+    "list": {
+      "title": "Configuration globale des fonctionnalités"
+    },
+    "success": {
+      "title": "Bravo !",
+      "description": "Configuration mise à jour."
+    }
+  },
+  "funckeys": {
+    "funckeys": "Touches de fonctions",
+    "create": {
+      "title": "Ajouter un template de touche de fonctions"
+    },
+    "delete": {
+      "title": "Suppression du template de touche de fonctions",
+      "subTitle": "Voulez-vous supprimer le template de touche de fonctions {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le template de touche de fonctions {{name}}"
+    },
+    "list": {
+      "title": "Liste des templates de touche de fonctions"
+    }
+  },
+  "groups": {
+    "congestion_helper": "n'est pris en compte que si un nombre d'appels maximum est défini.",
+    "dtmf_record_toggle": "Activer l'enregistrement par touche *3",
+    "group_members_helper": "l'ordre des membres joue un rôle si la stratégie de sonnerie est linéraire.",
+    "max_calls": "Nombre maximum d'appels",
+    "max_calls_helper": "si 0, le nombre d'appels est illimité.",
+    "no_answer_helper": "n'est pris en compte que si un temps d'attente est défini.",
+    "retry_delay_helper": "le temps d'attente entre deux membres du groupe.",
+    "timeout_helper": "temps d'attente total.",
+    "user_timeout_helper": "temps de sonnerie pour un membre du groupe.",
+    "create": {
+      "title": "Ajouter un groupe de sonnerie"
+    },
+    "delete": {
+      "title": "Suppression du groupe de sonnerie",
+      "subTitle": "Voulez-vous supprimer le groupe de sonnerie {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le groupe de sonnerie {{name}}"
+    },
+    "list": {
+      "title": "Liste des groupes de sonnerie"
+    },
+    "ring_strategy": {
+      "all": "Tous",
+      "random": "Au hasard",
+      "least_recent": "Le moins récent",
+      "linear": "Linéaire",
+      "fewest_calls": "Le moins d'appel",
+      "memorized_round_robin": "Rotation"
+    }
+  },
+  "iax": {
+    "general": "Géneral",
+    "limits": "Limites de numéros d'appel",
+    "add": "Ajouter",
+    "ip_address": "Addresse IP",
+    "netmask": "Masque réseau",
+    "limit": "Limite",
+    "list": {
+      "title": "Configuration globale IAX"
+    },
+    "success": {
+      "title": "Bravo !",
+      "description": "Configuration mise à jour."
+    }
+  },
+  "incalls": {
+    "greeting_sound": "Message de pré-décroché",
+    "greeting_sound_helper": "Correspond au message de bienvenue, une fois fini, l'appel est transmis à la destination choisie.",
+    "create": {
+      "title": "Ajouter un appel entrant"
+    },
+    "delete": {
+      "title": "Suppression de l'appel entrant",
+      "subTitle": "Voulez-vous supprimer l'appel entrant {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'appel entrant {{name}}"
+    },
+    "list": {
+      "title": "Liste des appels entrants"
+    }
+  },
+  "ingresses": {
+    "create": {
+      "title": "Ajouter une entrée"
+    },
+    "delete": {
+      "title": "Suppression de l'entrée",
+      "subTitle": "Voulez-vous supprimer l'entrée {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'entrée {{name}}"
+    },
+    "list": {
+      "title": "Liste des entrées"
+    }
+  },
+  "ivrs": {
+    "menu_interactive": "Menu intéractif",
+    "timeout_helper": "Nombre de seconde d'attente avant de rejouer le menu ou rediriger l'appel. (5 seconde par défaut)",
+    "timeout_destination": "Renvois sur timeout",
+    "timeout_destination_helper": "Renvoi l'appel en cas de dépassement du délais. si non configuré, le menu sera rejoué.",
+    "invalid_destination": "Renvois sur invalid",
+    "invalid_destination_helper": "Redirige l'appelant lorsqu'il se trompe de choix. Si il n'est pas configuré, le menu sera rejoué.",
+    "max_tries": "Nombre d'essais maximum",
+    "max_tries_helper": "Nombre d'essais avant abandon de l'appel. les timeout et choix invalides sont comptabilisés.",
+    "abort_destination": "Renvois sur abandon",
+    "abort_destination_helper": "Redirige l'appel lorsque le nom maximum d'essais est atteint.",
+    "sound_menu": "Menu audio",
+    "sound_menu_helper": "Correspond aux choix que l'utilisateur peut faire.",
+    "sound_greeting": "Message d'accueil",
+    "sound_greeting_helper": "Correspond au message de bienvenue, aucune touche ne peut être saisie.",
+    "sound_invalid": "Message sur choix invalide",
+    "sound_invalid_helper": "Correspond au message joué lorsqu'une touche est mal saisie. non utilisé si une destination est configurée.",
+    "sound_abort": "Message sur abandon",
+    "sound_abort_helper": "Joué lorsque le nombre d'essais maximum est atteint. non utilisé si une destination d'abandon est configurée.",
+    "create": {
+      "title": "Ajouter un SVI"
+    },
+    "delete": {
+      "title": "Suppression du SVI",
+      "subTitle": "Voulez-vous supprimer le SVI {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le SVI {{name}}"
+    },
+    "list": {
+      "title": "Liste des SVI"
+    }
+  },
+  "lines": {
+    "protocol": "Protocol",
+    "protocol_select": "Selectionner le protocol",
+    "prov_code": "Code d'approvisionnement",
+    "caller_name": "Nom de l'appelant",
+    "caller_id": "Numéro d'identification de l'appelant",
+    "context": "Context",
+    "interface": "Interface",
+    "interface_helper": "interface Asterisk a utiliser. (e.g. 'dahdi/i1')",
+    "interface_suffix": "Suffix de l'interface",
+    "templates": "Modèles SIP",
+    "templates_select": "Sélectionner des modèles SIP",
+    "transport": "Transport",
+    "transport_select": "Sélectionner un transport",
+    "transport_helper": "optionnel, écrase la valeur par défaut",
+    "create": {
+      "title": "Ajouter une ligne"
+    },
+    "delete": {
+      "title": "Suppression de la ligne",
+      "subTitle": "Voulez-vous supprimer la ligne {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier la ligne {{name}}"
+    },
+    "list": {
+      "title": "Liste des lignes"
+    }
+  },
+  "localization": {
+    "title": "Langue",
+    "select": "Choisir une langue"
+  },
+  "meetings": {
+    "persistent": "Permanente",
+    "require_authorization": "Restreinte",
+    "administrators": "Administrateurs",
+    "delete": {
+      "title": "Suppression du meeting",
+      "subTitle": "Voulez-vous supprimer le meeting {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le meeting {{name}}"
+    },
+    "list": {
+      "title": "Liste des meetings"
+    }
+  },
+  "mohs": {
+    "application_help": "La commande a éxécuter. ex: /usr/bin/mpg123 -q -r 8000 -f 8192 -b 2048 --mono -s",
+    "sort_help": "L'ordre dans lequel les fichiers sont lus",
+    "create": {
+      "title": "Ajouter une musique d'attente"
+    },
+    "delete": {
+      "title": "Suppression d'une musique d'attente",
+      "subTitle": "Voulez-vous supprimer la musique d'attente {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier la musique d'attente {{name}}"
+    },
+    "list": {
+      "title": "Liste des musiques d'attente"
+    }
+  },
+  "monitoring": {
+    "title": "Etat des services"
+  },
+  "outcalls": {
+    "ring_time": "Temps de sonnerie",
+    "internal_caller_id": "Identification de l'appelant interne",
+    "extension_placeholder": "modèle de plan de numérotation",
+    "caller_id_placeholder": "nom affiché",
+    "external_prefix_placeholder": "example: +33, 33, 33*1",
+    "prefix_placeholder": "example: 0, 0#, 0*",
+    "strip_digits_placeholder": "example: 0",
+    "create": {
+      "title": "Ajouter un appel sortant"
+    },
+    "delete": {
+      "title": "Suppression de l'appel sortant",
+      "subTitle": "Voulez-vous supprimer l'appel sortant {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'appel sortant {{name}}"
+    },
+    "list": {
+      "title": "Liste des appels sortants"
+    }
+  },
+  "pagings": {
+    "create": {
+      "title": "Ajouter un interphone"
+    },
+    "delete": {
+      "title": "Suppression de l'interphone",
+      "subTitle": "Voulez-vous supprimer l'interphone {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'interphone {{name}}"
+    },
+    "list": {
+      "title": "Liste des interphones"
+    }
+  },
+  "parkingLots": {
+    "create": {
+      "title": "Ajouter un parking"
+    },
+    "delete": {
+      "title": "Suppression du parking",
+      "subTitle": "Voulez-vous supprimer le parking {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le parking {{name}}"
+    },
+    "list": {
+      "title": "Liste des parkings"
+    },
+    "start_help": "numéro de début de la plage du parking",
+    "end_help": "numéro de fin de la plage du parking",
+    "timeout_help": "temps d'attente maximum dans le parking, si vide = sans limite"
+  },
+  "phonebooks": {
+    "create": {
+      "title": "Ajouter un annuaire"
+    },
+    "delete": {
+      "title": "Suppression d'un annuaire",
+      "subTitle": "Voulez-vous supprimer l'annuaire {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'annuaire {{name}}"
+    },
+    "list": {
+      "title": "Liste des annuaires"
+    }
+  },
+  "phonebooks_contacts": {
+    "sidebar": "Contacts",
+    "select_phonebook": "Choix de l'annuaire",
+    "create": {
+      "title": "Ajouter un contact"
+    },
+    "delete": {
+      "title": "Suppression d'un contact",
+      "subTitle": "Voulez-vous supprimer le contact {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le contact {{name}}"
+    },
+    "list": {
+      "title": "Liste des contacts de l'annuaire"
+    }
+  },
+  "phoneNumbers": {
+    "main": "Principal",
+    "shared": "Partagé",
+    "create": {
+      "title": "Ajouter un numéro"
+    },
+    "delete": {
+      "title": "Suppression d'un numéro",
+      "subTitle": "Voulez-vous supprimer le numéro {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le numéro {{name}}"
+    },
+    "list": {
+      "title": "Liste des numéros"
+    }
+  },
+  "pjsip": {
+    "global": "Globale",
+    "system": "Système",
+    "add": "Ajouter",
+    "list": {
+      "title": "Configuration globale Pjsip"
+    },
+    "success": {
+      "title": "Bravo !",
+      "description": "Configuration mise à jour."
+    }
+  },
+  "plugins": {
+    "installed": "Installés",
+    "market": "Marketplace",
+    "git_url": "Url du repo Git",
+    "ref": "Branche ou Tag",
+    "filter": "Filtre",
+    "display_name": "Nom",
+    "author": "Auteur",
+    "description": "Description",
+    "usage": "Usage",
+    "tags": "Tags",
+    "min_wazo_version": "Wazo min version",
+    "max_wazo_version": "Wazo max version",
+    "install_button": "Installer",
+    "error": {
+      "title": "Plugin non installé",
+      "description": "Quelque chose s'est mal passé avec ton plugin"
+    },
+    "success": {
+      "title": "Plugin installé",
+      "description": "On a installé le plugin pour toi"
+    },
+    "install": {
+      "title": "Installation d'un plugin",
+      "subTitle": "Voulez-vous installer le plugin {{name}} ?"
+    },
+    "delete": {
+      "title": "Suppression d'un plugin",
+      "subTitle": "Voulez-vous supprimer le plugin {{name}} ?"
+    },
+    "list": {
+      "title": "Liste des plugins"
+    }
+  },
+  "policies": {
+    "create": {
+      "title": "Ajouter une règle de sécurité"
+    },
+    "delete": {
+      "title": "Suppression de la règle de sécurité",
+      "subTitle": "Voulez-vous supprimer la règle de sécurité {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier la règle de sécurité {{name}}"
+    },
+    "list": {
+      "title": "Liste des règles de sécurité"
+    },
+    "errors": {
+      "requiredName": "Le nom est requis.",
+      "invalid_acl": "Règle de sécurité invalide"
+    }
+  },
+  "policyGroups": {
+    "create": {
+      "title": "Ajouter un groupe de sécurité"
+    },
+    "delete": {
+      "title": "Suppression de le groupe de sécurité",
+      "subTitle": "Voulez-vous supprimer le groupe de sécurité {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le groupe de sécurité {{name}}"
+    },
+    "list": {
+      "title": "Liste des groupes de sécurité"
+    },
+    "errors": {
+      "requiredName": "Le nom est requis."
+    }
+  },
+  "profiles": {
+    "source_add": "Ajouter une source",
+    "source": "Source",
+    "favorites": "Favoris",
+    "reverse": "Reverse",
+    "lookup": "Lookup",
+    "remove": "Supprimer",
+    "error": "Erreur",
+    "error_message": "Aucune source disponible pour être ajoutée.",
+    "create": {
+      "title": "Ajouter un profil"
+    },
+    "delete": {
+      "title": "Suppression du profil",
+      "subTitle": "Voulez-vous supprimer le profil {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le profil {{name}}"
+    },
+    "list": {
+      "title": "Liste des profils"
+    }
+  },
+  "provisioning": {
+    "general": "Géneral",
+    "advanced": "Avancé",
+    "provision_host": "Hôte",
+    "provision_http_base_url": "Base de l'URL HTTP",
+    "provision_http_port": "Port HTTP",
+    "plugin_server": "Serveur",
+    "plugin_server_helper": "URL du serveur de provisionnement",
+    "http_proxy": "Proxy HTTP",
+    "http_proxy_helper": "Proxy pour les reqûetes HTTP. le format est http://[user:password@]host:port",
+    "ftp_proxy": "Proxy FTP",
+    "ftp_proxy_helper": "Proxy pour les reqûetes FTP. le format est http://[user:password@]host:port",
+    "https_proxy": "Proxy HTTPS",
+    "https_proxy_helper": "Proxy pour les reqûetes HTTPS. le format est http://host:port",
+    "locale": "Langue",
+    "locale_helper": "Example: fr_FR",
+    "nat": "NAT",
+    "list": {
+      "title": "Gestion globale du provisionnement"
+    },
+    "success": {
+      "title": "Bravo !",
+      "description": "Configuration mise à jour."
+    }
+  },
+  "provisioningDevice": {
+    "general": "Géneral",
+    "advanced": "Avancé",
+    "label": "Nom",
+    "language": "Langue",
+    "timezone": "Fuseau horaire",
+    "protocol": "Protocol",
+    "ntp_enabled": "NTP activé",
+    "ntp_server": "Serveur NTP",
+    "phonebook_server": "Serveur annuaire",
+    "sip_dtmf_mode": "Mode SIP DTMF",
+    "user_username": "Nom de l'utilisateur",
+    "user_password": "Mot de passe de l'utilisateur",
+    "admin_username": "Nom de l'administrateur",
+    "admin_password": "Mot de passe de l'administrateur",
+    "sip_subscribe_mwi": "Notification explicite des messages",
+    "vlan_enabled": "VLAN activé",
+    "vlan_id": "Identifiant du VLAN",
+    "vlan_priority": "Priorité du vlan",
+    "vlan_pc_port_id": "Identifiant du VLAN du périphérique",
+    "list": {
+      "title": "Gestion globale des périphériques"
+    },
+    "success": {
+      "title": "Bravo !",
+      "description": "Configuration mise à jour."
+    }
+  },
+  "queues": {
+    "membersTimeout": "Temps de sonnerie d'un membre",
+    "membersTimeout_help": "min: 15s, max: 30s",
+    "retryDelay": "Delais entre deux membres",
+    "retryDelay_help": "min: 5s, max: 15s",
+    "retry_on_timeout": "Appliquer un délai entre deux membres",
+    "retry_on_timeout_help": "Met l'appel en attente avant de passer au membre suivant",
+    "maxlenValue": "Nombre maximum d'appel en attente",
+    "maxlenValue_help": "Si 0, il n'y a pas de limite. Sinon, la valeur est prise en compte pour le renvois en cas de congestion",
+    "timeout_help": "Temps total d'un appel non répondu. Si défini, il déclenche le renvois en cas de non réponse",
+    "wait_ratio_threshold": "Nombre maximum d'appel en attente par agent connecté",
+    "wait_ratio_threshold_help": "Nombre d'appel en attente par agent. ex: 2",
+    "waitratiodestination": "Destination du nombre maximum d'appel en attente",
+    "wait_time_threshold": "Temps d'attente maximum",
+    "wait_time_threshold_help": "Si le temps d'attente moyen est supérieur au temps d'attente maximum, alors l'appel est renvoyé. ex: 120s",
+    "waittimedestination": "Destination du temps d'attente maximum",
+    "statistic_title": "Statistique des files d'attente",
+    "received": "Reçu",
+    "answered": "Répondu",
+    "answered_rate": "Taux répondu",
+    "average_waiting_time": "temps d'attente",
+    "not_answered": "Non répondu",
+    "abandonned": "Abandonné",
+    "blocked": "Bloqué",
+    "closed": "Fermé",
+    "saturated": "Saturé",
+    "from": "Du",
+    "until": "Au",
+    "create": {
+      "title": "Ajouter une file d'attente"
+    },
+    "delete": {
+      "title": "Suppression de la file d'attente",
+      "subTitle": "Voulez-vous supprimer la file d'attente {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier la file d'attente {{name}}"
+    },
+    "list": {
+      "title": "Liste des files d'attente"
+    }
+  },
+  "records": {
+    "title": "Annonce d'enregistrement",
+    "start": "Début d'enregistrement",
+    "stop": "Fin d'enregistrement"
+  },
+  "retention": {
+    "title": "Rétention",
+    "cdr_days": "Historique d'appels",
+    "export_days": "Export",
+    "recording_days": "Enregistrement",
+    "retention_helper": "Nombre de jour par défaut: {{value}}"
+  },
+  "rtp": {
+    "general": "Géneral",
+    "ice": "ICE",
+    "address_local": "Adresse locale",
+    "address_advertised": "Adresse annoncée",
+    "yes": "Oui",
+    "no": "Non",
+    "seqno": "Seqno",
+    "rtp_start": "RTP début",
+    "rtp_end": "RTP Fin",
+    "rtp_check_sums": "RTP Vérifier les sommes",
+    "dtmf_timeout": "DTMF délais",
+    "rtcp_interval": "RTCP Interval",
+    "strict_rtp": "RTP strict",
+    "probation": "Probation",
+    "ice_support": "Support Ice",
+    "stun_address": "STUN adresse",
+    "stun_blacklist": "STUN liste noire",
+    "turn_address": "TURN adresse",
+    "turn_username": "TURN utilisateur",
+    "turn_password": "TURN password",
+    "ice_blacklist": "ICE liste noire",
+    "add": "Ajouter",
+    "list": {
+      "title": "Configuration RTP"
+    },
+    "success": {
+      "title": "Bravo !",
+      "description": "Configuration mise à jour."
+    }
+  },
+  "schedules": {
+    "closed_destination": "Destination en période de fermeture",
+    "period_add": "Ajouter une période",
+    "period_remove": "Supprimer cette période",
+    "create": {
+      "title": "Ajouter un horaire"
+    },
+    "delete": {
+      "title": "Suppression de l'horaire",
+      "subTitle": "Voulez-vous supprimer l'horaire {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'horaire {{name}}"
+    },
+    "list": {
+      "title": "Liste des horaires"
+    }
+  },
+  "sessions": {
+    "delete": {
+      "title": "Suppression de la session",
+      "subTitle": "Voulez-vous supprimer la session de {{name}} ?"
+    },
+    "list": {
+      "title": "Liste des sessions en cours",
+      "delete_all": "Supprimer toutes les sessions",
+      "delete_all_title": "Supprimer toutes les sessions de l'utilisateur",
+      "delete_all_subtitle": "Voulez-vous supprimer toutes les sessions de l'utilisateur"
+    }
+  },
+  "sipTemplates": {
+    "create": {
+      "title": "Ajouter un modèle SIP"
+    },
+    "delete": {
+      "title": "Suppression du modèle SIP",
+      "subTitle": "Voulez-vous supprimer le modèle SIP {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le modèle SIP {{name}}"
+    },
+    "list": {
+      "title": "Liste des modèles SIP"
+    }
+  },
+  "sipTransports": {
+    "add_option": "Ajouter une option",
+    "create": {
+      "title": "Ajouter un transport SIP"
+    },
+    "delete": {
+      "title": "Suppression du transport SIP",
+      "subTitle": "Voulez-vous supprimer du transport SIP {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le transport SIP {{name}}"
+    },
+    "list": {
+      "title": "Liste des transports SIP"
+    }
+  },
+  "skills": {
+    "error_title": "Aucune compétence disponible",
+    "error_description": "Ajoutez d'abord une compétence",
+    "create": {
+      "title": "Ajouter une compétence"
+    },
+    "delete": {
+      "title": "Suppression d'une compétence",
+      "subTitle": "Voulez-vous supprimer la compétence {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier la compétence {{name}}"
+    },
+    "list": {
+      "title": "Liste des compétences"
+    }
+  },
+  "skillsrules": {
+    "create": {
+      "title": "Ajouter une règle de compétence"
+    },
+    "delete": {
+      "title": "Suppression d'une règle de compétence",
+      "subTitle": "Voulez-vous supprimer la règle de compétence {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier la règle de compétence {{name}}"
+    },
+    "list": {
+      "title": "Liste des règles de compétence"
+    }
+  },
+  "sounds": {
+    "sound_announce_helper": "seul les fichiers sonores de la catégorie 'playback' sont permis.",
+    "create": {
+      "title": "Ajouter une catégorie de fichiers audios"
+    },
+    "delete": {
+      "category": {
+        "title": "Suppression de la catégorie de fichiers audios",
+        "subTitle": "Voulez-vous supprimer la catégorie {{name}} ?"
+      },
+      "file": {
+        "title": "Suppression d'un fichier audio",
+        "subTitle": "Voulez-vous supprimer le fichier audio {{name}} ?"
+      }
+    },
+    "edit": {
+      "category": {
+        "title": "Modifier la catégorie {{name}}"
+      },
+      "file": {
+        "title": "Modifier la catégorie {{name}}",
+        "subTitle": "Modification de la catégorie {{name}}",
+        "add": "Ajout d'un fichier son",
+        "select": "Choisir un fichier audio"
+      }
+    },
+    "list": {
+      "title": "Liste des catégories de fichiers audios"
+    }
+  },
+  "sources": {
+    "create": {
+      "title": "Ajouter une source"
+    },
+    "delete": {
+      "title": "Suppression d'une source",
+      "subTitle": "Voulez-vous supprimer la source {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier la source {{name}}"
+    },
+    "list": {
+      "title": "Liste des sources"
+    },
+    "source_type": "Sélectionner un type de source",
+    "conference": "Conférence",
+    "conference_auth": "Conférence auth",
+    "conference_confd": "Conférence confd",
+    "csv": "CSV",
+    "csv_file": "Fichier CSV",
+    "csv_ws": "CSV WS",
+    "csv_ws_file": "Fichier CSV WS",
+    "google": "Google",
+    "google_auth": "Google Auth",
+    "ldap": "LDAP",
+    "ldap_file": "Configuration LDAP",
+    "office": "Office 365",
+    "office_auth": "Office 365 auth",
+    "personal": "Personnel",
+    "phonebook": "Annuaire",
+    "phonebook_file": "Configuration Annuaire",
+    "phonebook_select": "Sélectionner un annuaire",
+    "wazo": "Wazo",
+    "wazo_auth": "Wazo Auth",
+    "wazo_confd": "Wazo Confd",
+    "first_matched_columns": "Premières colonnes correspondantes",
+    "format_columns": "Formater les colonnes",
+    "search_columns": "Rechercher dans les colonnes",
+    "add": "Ajouter un champ",
+    "delimiter": "Délimiteur",
+    "file": "Fichier",
+    "ldap_base_dn": "Base DN",
+    "ldap_custom_filter": "Filtre personnalisé",
+    "ldap_network_timeout": "Délais du temps de réponse",
+    "ldap_password": "Mot de passe LDAP",
+    "ldap_timeout": "Délais LDAP",
+    "ldap_uri": "LDAP URI",
+    "ldap_username": "Utilisateur LDAP",
+    "list_url": "URL de la liste",
+    "lookup_url": "URL de lookup",
+    "separator": "Séparateur",
+    "unique_column": "Colonne unique",
+    "unique_column_format": "Format de la colonne unique"
+  },
+  "subscriptions": {
+      "list": {
+        "title": "Liste des abonnements",
+        "type": "Abonnement",
+        "count": "Quantité"
+      },
+      "details": {
+        "title": "Détails",
+        "title_tab": "Détails des niveaux d'abonnement",
+        "level": "Niveau",
+        "name": "Nom",
+        "content": "Contenu principal",
+        "starter": "Accès à l'application MyPhone",
+        "voice": "Accès à l'application Web + Phone",
+        "admin": "Tous les services + accès interface d’administration"
+      }
+  },
+  "switchboards": {
+    "moh_on_hold": "Musique d'attente sur appel mis en pause",
+    "timeout_helper": "la durée du temps d'attente, si il est atteint, alors le renvois sur non réponse est joué.",
+    "create": {
+      "title": "Ajouter un switchboard"
+    },
+    "delete": {
+      "title": "Suppression du switchboard",
+      "subTitle": "Voulez-vous supprimer le switchboard {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le switchboard {{name}}"
+    },
+    "list": {
+      "title": "Liste des switchboards"
+    }
+  },
+  "tenants": {
+    "general": "Général",
+    "domains": "Domaines",
+    "domain": "Domaine",
+    "domain_title": "Liste des noms de domaines",
+    "domain_helper": "eg: monsite.fr",
+    "invalid_domain": "Nom de domaine invalide !",
+    "domain_add": "Ajouter un domaine",
+    "slug": "Identifiant",
+    "slug_helper": "Ne peut pas être modifié et doit comporté entre 1 et 10 lettres",
+    "contact": "Contact",
+    "country": "Pays",
+    "city": "Ville",
+    "state": "Région",
+    "zip_code": "Code postal",
+    "line_1": "Adresse",
+    "email": "Email",
+    "auth_method": "Méthode d'authentification par défaut",
+    "create": {
+      "title": "Ajouter un tenant"
+    },
+    "delete": {
+      "title": "Suppression du tenant",
+      "subTitle": "Voulez-vous supprimer le tenant {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le tenant {{name}}"
+    },
+    "list": {
+      "title": "Liste des tenants"
+    }
+  },
+  "trunks": {
+    "create": {
+      "title": "Ajouter un trunk"
+    },
+    "delete": {
+      "title": "Suppression du trunk",
+      "subTitle": "Voulez-vous supprimer le trunk {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le trunk {{name}}"
+    },
+    "list": {
+      "title": "Liste des trunks"
+    },
+    "trunk": "Trunk",
+    "register": "Enregistrer",
+    "operator_select": "Selectionner un opérateur",
+    "config_manual": "Configuration manuelle",
+    "protocol_select": "Selectionner le protocol",
+    "suffix": "Suffix du nom du trunk",
+    "accountSID": "Compte SID",
+    "authentification": "Serveur d'authentification",
+    "label": "Nom",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "server": "serveur",
+    "domain": "Domaine",
+    "port": "Port",
+    "client_id": "Identifiant client",
+    "client_pai": "PAI client",
+    "client_ref": "Référence client",
+    "csips": "Platforme",
+    "did_num": "Numero(s) - Format ( .*Num1.*|.*Num2.* )",
+    "interface": "Interface",
+    "interface_helper": "interface Asterisk a utiliser. (e.g. 'dahdi/i1')",
+    "interface_suffix": "Suffix de l'interface",
+    "label_id": "Identifant label",
+    "ndi": "Numéro de Désignation d'Installation (NDI)",
+    "postal_code": "Code postal",
+    "proxy": "Serveur Proxy",
+    "realm": "Realm",
+    "sip_uri": "URI SIP",
+    "sfr_sbc": "SBC SFR",
+    "trunk_type": "Type",
+    "x_tenant_trunk": "Ref. X-Tenant-Trunk",
+    "auth_username": "Nom d'utilisateur d'authentification",
+    "auth_password": "Mot de passe d'authentification",
+    "callback_context": "Context de rappel",
+    "callback_extension": "Extension de rappel",
+    "remote_host": "Hôte distant",
+    "remote_port": "Port distant",
+    "options_helper": "Vous pouvez laisser vide, les valeurs par défauts seront automatiquement ajoutées",
+    "outgoing_caller_id_format": "Format de l'identifiant de l'appelant sortant"
+  },
+  "users": {
+    "services": {
+      "dnd": "Ne pas déranger",
+      "incallfilter": "Filtrage des appels",
+      "call_record_incoming_external_enabled": "Enregistrement des appels externes entrants",
+      "call_record_incoming_internal_enabled": "Enregistrement des appels internes entrants",
+      "call_record_outgoing_external_enabled": "Enregistrement des appels externes sortants",
+      "call_record_outgoing_internal_enabled": "Enregistrement des appels internes sortants",
+      "call_permission_password": "Mot de passe d'autorisation d'appel",
+      "supervision_enabled": "Supervision du poste (partage de la présence)"
+    },
+    "dtmf": {
+      "call_transfer_enabled": "Activer le transfert par DTMF",
+      "dtmf_hangup_enabled": "Activer le raccrochage par DTMF",
+      "online_call_record_enabled": "Activer l'enregistrement en direct"
+    },
+    "general": {
+      "mobile_phone": "Téléphone portable",
+      "routine": "Sous-routine",
+      "timezone": "Fuseau horaire",
+      "userfield": "Champ de l'utilisateur"
+    },
+    "forwards": {
+      "busy": "Renvois sur occupation",
+      "noanswer": "Renvois sur non réponse",
+      "unconditional": "Renvois inconditionnel"
+    },
+    "call_permissions": {
+      "select": "Sélectionner une autorisation d'appel"
+    },
+    "lines": {
+      "application": "Application",
+      "application_select": "Sélectionner une application",
+      "context": "context",
+      "device": "Périphérique",
+      "device_select": "Sélectionner un périphérique",
+      "extension": "Extension",
+      "line": "Ligne",
+      "models": "Modèles",
+      "models_select": "Sélectionner des modèles",
+      "protocol": "Protocol",
+      "schedule_select": "Sélectionner un horaire",
+      "voicemail_select": "Sélectionner un répondeur",
+      "delete": {
+        "title": "Suppression de la ligne",
+        "subTitle": "Voulez-vous supprimer la ligne {{name}} ?"
+      },
+      "create": {
+        "line_title": "Création de la ligne",
+        "line_number": "Numéro de ligne",
+        "voicemail_title": "Création de la messagerie",
+        "voicemail_activate": "Activer la messagerie"
+      }
+    },
+    "idp": {
+      "authentication_method": "Méthode d'authentification"
+    },
+    "tabs": {
+      "user": "Utilisateur",
+      "informations": "Informations",
+      "no_answer": "Pas de réponse",
+      "services": "Services",
+      "forwards": "Renvois",
+      "lines": "Lignes",
+      "groups": "Groupes",
+      "funckeys": "Touches de fonctions",
+      "schedules": "Horaires",
+      "voicemails": "Répondeurs",
+      "callpermissions": "Autorisations d'appel",
+      "blocklist": "N° bloqués",
+      "idp": "Authentification"
+    },
+    "create": {
+      "title": "Ajouter un utilisateur",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "add_user_only": "Ajouter uniquement l'utilisateur",
+      "add_user": "Ajouter",
+      "step_user": "Utilisateur",
+      "step_user_comment": "compte",
+      "step_user_email_invalid": "Email non valide",
+      "step_user_admin": "Administrateur",
+      "step_line": "Ligne",
+      "step_line_comment": "numéro",
+      "step_configuration": "Configuration",
+      "step_configuration_comment": "options",
+      "required": "Champ obligatoire",
+      "email_already_exist": "L'email est déjà utilisé par un autre utilisateur."
+    },
+    "delete": {
+      "title": "Suppression de l'utilisateur",
+      "subTitle": "Voulez-vous supprimer l'utilisateur {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier l'utilisateur {{name}}",
+      "alert_title": "Vous ne pouvez pas changer le protocol d'une ligne déjà existante !",
+      "alert_description": "Veuillez créer une nouvelle ligne",
+      "email_invalid": "Email invalide"
+    },
+    "list": {
+      "title": "Liste des utilisateurs"
+    }
+  },
+  "voicemailGeneral": {
+    "new_key": "clé",
+    "new_value": "valeur",
+    "list": {
+      "title": "Configuration globale des messageries"
+    },
+    "succes": {
+      "title": "Bravo !",
+      "description": "Configuration mise à jour."
+    }
+  },
+  "voicemails": {
+    "create": {
+      "title": "Ajouter un répondeur"
+    },
+    "delete": {
+      "title": "Suppression du répondeur",
+      "subTitle": "Voulez-vous supprimer le répondeur {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le répondeur {{name}}"
+    },
+    "list": {
+      "title": "Liste des répondeurs"
+    }
+  },
+  "webhooks": {
+    "content_type": "Content Type",
+    "verify_certificate": "Vérifier le certificat",
+    "body": "Corps",
+    "body_placeholder": "Laisser vide pour avoir l'event par défaut",
+    "events_helper": "Si l'event n'est pas lié à un user, il sera constament pris en compte",
+    "uuid": "UUID",
+    "attempts": "Tentatives",
+    "status": "Etat",
+    "create": {
+      "title": "Ajouter un webhook"
+    },
+    "delete": {
+      "title": "Suppression du webhook",
+      "subTitle": "Voulez-vous supprimer le webhook {{name}} ?"
+    },
+    "edit": {
+      "title": "Modifier le webhook {{name}}"
+    },
+    "list": {
+      "title": "Liste des webhooks"
+    },
+    "logs": {
+      "title": "Logs",
+      "detail": "Détail",
+      "details": "Détails",
+      "event": "Evènement",
+      "copy": "Copier dans le press papier",
+      "copy_title": "Copié !",
+      "copy_description": "Le contenu à été copié dans le press papier."
+    },
+    "events": {
+      "agent_paused": "agent_paused",
+      "agent_status_update": "agent_status_update",
+      "agent_unpaused": "agent_unpaused",
+      "call_answered": "call_answered",
+      "call_created": "call_created",
+      "call_dtmf_created": "call_dtmf_created",
+      "call_ended": "call_ended",
+      "call_held": "call_held",
+      "call_log_user_created": "call_log_user_created",
+      "call_resumed": "call_resumed",
+      "call_updated": "call_updated",
+      "chat_message_received": "chat_message_received",
+      "chat_message_sent": "chat_message_sent",
+      "chatd_presence_updated": "chatd_presence_updated",
+      "chatd_user_room_created": "chatd_user_room_created",
+      "chatd_user_room_message_created": "chatd_user_room_message_created",
+      "endpoint_status_update": "endpoint_status_update",
+      "favorite_added": "favorite_added",
+      "favorite_deleted": "favorite_deleted",
+      "relocate_initiated": "relocate_initiated",
+      "relocate_answered": "relocate_answered",
+      "relocate_complete": "relocate_complete",
+      "relocate_ended": "relocate_ended",
+      "user_status_update": "user_status_update",
+      "user_voicemail_message_created": "user_voicemail_message_created",
+      "user_voicemail_message_deleted": "user_voicemail_message_deleted",
+      "user_voicemail_message_updated": "user_voicemail_message_updated",
+      "users_forwards_busy_updated": "users_forwards_busy_updated",
+      "users_forwards_noanswer_updated": "users_forwards_noanswer_updated",
+      "users_forwards_unconditional_updated": "users_forwards_unconditional_updated",
+      "users_services_dnd_updated": "users_services_dnd_updated",
+      "users_services_incallfilter_updated": "users_services_incallfilter_updated"
+    }
+  }
+}

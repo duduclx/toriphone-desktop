@@ -1,0 +1,13 @@
+{
+    "404": "Ressource nicht gefunden",
+    "general": "Fehler: {{message}}",
+    "input": "Eingabefehler",
+    "invalidRange": "Der Bereich ist nicht korrekt.",
+    "requiredEndSlot": "Die Endnummer ist erforderlich.",
+    "requiredName": "Der Name ist erforderlich.",
+    "requiredNumber": "Die Nummer ist erforderlich!",
+    "requiredStartSlot": "Die Startnummer ist erforderlich.",
+    "unknown": "Ein unbekannter Fehler ist aufgetreten",
+    "unknownField": "Unbekanntes Feld."
+  }
+  

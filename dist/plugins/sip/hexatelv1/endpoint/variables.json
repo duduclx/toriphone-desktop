@@ -1,0 +1,59 @@
+{
+    "variables": [
+        {
+            "name": "label",
+            "label": [
+                {"language": "fr_CA", "value": "Étiquette"},
+                {"language": "fr_FR", "value": "Étiquette"},
+                {"language": "en_US", "value": "Label"}
+            ],
+            "required": true,
+            "default": "Hexatel"
+        },
+        {
+            "name": "domain",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur Proxy"},
+                {"language": "fr_FR", "value": "Serveur Proxy"},
+                {"language": "en_US", "value": "Proxy Server"}
+            ],
+            "required": true
+        },
+        {
+            "name": "client_id",
+            "label": [
+                {"language": "fr_CA", "value": "ID Client"},
+                {"language": "fr_FR", "value": "ID Client"},
+                {"language": "en_US", "value": "Client ID"}
+            ],
+            "required": true
+        },
+        {
+            "name": "label_id",
+            "label": [
+                {"language": "fr_CA", "value": "Libele ID"},
+                {"language": "fr_FR", "value": "Libele ID"},
+                {"language": "en_US", "value": "Label ID"}
+            ],
+            "required": false
+        },
+        {
+            "name": "client_pai",
+            "label": [
+                {"language": "fr_CA", "value": "PAI Client"},
+                {"language": "fr_FR", "value": "PAI Client"},
+                {"language": "en_US", "value": "Client PAI"}
+            ],
+            "required": false
+        },
+        {
+            "name": "postal_code",
+            "label": [
+                {"language": "fr_CA", "value": "Code Postal Client"},
+                {"language": "fr_FR", "value": "Code Postal Client"},
+                {"language": "en_US", "value": "Client Postal Code"}
+            ],
+            "required": false
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "label": "{{ label }}",
+    "name": "gc_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["identify_by", "username,header,auth_username"],
+        ["send_pai", "yes"],
+        ["from_domain", "voip.groupe-convergence.net"],
+        ["timers_sess_expires", "600"],
+        ["allow", "!all,alaw,ulaw,g729"]
+    ],
+    "registration_section_options": [
+        ["contact_user", "{{ username }}"],
+        ["expiration", "300"],
+        ["line", "yes"],
+        ["client_uri", "sip:{{ username }}@voip.groupe-convergence.net"],
+        ["server_uri", "sip:voip.groupe-convergence.net"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@91.211.64.225"]
+    ]
+}

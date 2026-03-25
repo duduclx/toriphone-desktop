@@ -1,0 +1,335 @@
+{
+    "total": 2,
+    "items": [
+        {
+            "name": "Adista",
+            "version": "0.1",
+            "slug": "adistav1",
+            "url": "http://www.adista.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/adistav1/logo-adista.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Aerlink",
+            "version": "1.0",
+            "slug": "aerlinkv1",
+            "url": "http://www.aerlink.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/aerlinkv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Agence Telecom",
+            "version": "0.1",
+            "slug": "agencetelecomv1",
+            "url": "https://www.agencetelecom.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/agencetelecomv1/logo.png",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Alphalink",
+            "version": "0.1",
+            "slug": "alphalinkv1",
+            "url": "http://www.alphalink.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/alphalinkv1/logo.svg",
+            "mainColor": "#4D4C4F"
+        },
+        {
+            "name": "Appliwave",
+            "version": "1.2",
+            "slug": "appliwavev1",
+            "url": "http://www.appliwave.com",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/appliwavev1/logo.svg",
+            "mainColor": "#4D4C4F"
+        },
+        {
+            "name": "bOnline",
+            "version": "1.0",
+            "slug": "bonv1",
+            "url": "https://www.bonline.com",
+            "country": "UK",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/bonv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Bouygues Télécom",
+            "version": "1.1",
+            "slug": "btelv1",
+            "url": "https://www.bouyguestelecom.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/btelv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Bulk Solutions",
+            "version": "0.1",
+            "slug": "bulkv1",
+            "url": "https://www.bulkvs.com/",
+            "country": "US",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/bulkv1/logo.svg",
+            "mainColor": "#303641"
+        },
+        {
+            "name": "Dsnty",
+            "version": "1.0",
+            "slug": "dstnyv1",
+            "url": "https://dstny.fr",
+            "country": "FR",
+            "url_doc": "https://support.wazo.io/hc/fr-fr/articles/360030860071-Configurer-Trunk-OPENIP",
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/dstnyv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Flexnetwork",
+            "version": "1.0",
+            "slug": "flexnetworkv1",
+            "url": "https://www.flexnetwork.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/flexnetworkv1/flexnetwork-logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Flowroute",
+            "version": "0.1",
+            "slug": "flowroutev1",
+            "url": "http://www.flowroute.com",
+            "country": "US",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/flowroutev1/logo.svg",
+            "mainColor": "#1b273a"
+        },
+        {
+            "name": "Free PRO",
+            "version": "1.1",
+            "slug": "freeprov1",
+            "url": "https://pro.free.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/freeprov1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Groupe Convergence",
+            "version": "1.0",
+            "slug": "gconvergencev1",
+            "url": "https://www.groupe-convergence.com",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/gconvergencev1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Hexatel",
+            "version": "0.2",
+            "slug": "hexatelv1",
+            "url": "http://www.hexatel.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/hexatelv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "IPLine",
+            "version": "0.1",
+            "slug": "iplinev1",
+            "url": "http://www.ipline.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/iplinev1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Inovatel",
+            "version": "0.2",
+            "slug": "inovatelv1",
+            "url": "https://www.inovatel.ca",
+            "country": ["CA","US"],
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/inovatelv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "ippi",
+            "version": "0.1",
+            "slug": "ippiv1",
+            "url": "http://www.ippi.com",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/ippiv1/logo.svg",
+            "mainColor": "#0d6093"
+        },
+        {
+            "name": "Keyyo",
+            "version": "0.3",
+            "slug": "keyyov1",
+            "url": "https://www.keyyo.com/fr/",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/keyyov1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Linkt",
+            "version": "0.1",
+            "slug": "linktv1",
+            "url": "https://www.linkt.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/linktv1/logo.svg",
+            "mainColor": "#021A31"
+        },
+        {
+            "name": "Monaco Telecom",
+            "version": "0.1",
+            "slug": "monacotelecomv1",
+            "url": "http://www.monaco-telecom.mc",
+            "country": "MC",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/monacotelecomv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "OVH Telecom",
+            "version": "0.1",
+            "slug": "ovhtelecomv1",
+            "url": "https://www.ovhtelecom.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/ovhtelecomv1/logo.svg",
+            "mainColor": "#33acff"
+        },
+        {
+            "name": "Phenix Partner",
+            "version": "1.1",
+            "slug": "phenixpartnerv1",
+            "url": "https://phenix-partner.fr/",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/phenixpartnerv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Rubix Telecom",
+            "version": "1.0",
+            "slug": "rubixv1",
+            "url": "https://www.rubix-telecom.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/rubixv1/logo.svg",
+            "mainColor": "#000000"
+        },
+        {
+            "name": "Sewan",
+            "version": "0.1",
+            "slug": "sewanv1",
+            "url": "https://www.sewan.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/sewanv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "SFR Business",
+            "version": "0.2",
+            "slug": "sfrbusinessv1",
+            "url": "https://www.sfrbusiness.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/sfrbusinessv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Signalwire",
+            "version": "0.1",
+            "slug": "signalwirev1",
+            "url": "https://signalwire.com",
+            "country": "US",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/signalwirev1/logo.svg",
+            "mainColor": "#000000"
+        },
+        {
+            "name": "Telecom Object",
+            "version": "0.1",
+            "slug": "telecomobjectv1",
+            "url": "https://www.telecom-object.fr",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/telecomobjectv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Telnyx",
+            "version": "0.1",
+            "slug": "telnyxv1",
+            "url": "https://telnyx.com",
+            "country": "US",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/telnyxv1/logo.svg",
+            "mainColor": "#14314a"
+        },
+        {
+            "name": "Twilio",
+            "version": "0.1",
+            "slug": "twiliov1",
+            "url": "https://twilio.com",
+            "country": "US",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/twiliov1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "Unyc",
+            "version": "1.2",
+            "slug": "unycv1",
+            "url": "https://unyc.io",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/unycv1/logo.svg",
+            "mainColor": "#000000"
+        },
+        {
+            "name": "Voice Me Up",
+            "version": "0.1",
+            "slug": "voicemeupv1",
+            "url": "https://www.voicemeup.com",
+            "country": "CA",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/voicemeupv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        },
+        {
+            "name": "VoIP.ms",
+            "version": "1.0",
+            "slug": "voipmsv1",
+            "url": "https://voip.ms",
+            "country": "CA",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/voipmsv1/logo.svg",
+            "mainColor": "#E1382D"
+        },
+        {
+            "name": "Waycom",
+            "version": "0.1",
+            "slug": "waycomv1",
+            "url": "https://www.waycom.net",
+            "country": "FR",
+            "url_doc": null,
+            "logo": "https://raw.githubusercontent.com/wazo-communication/portal-plugins/master/plugins/sip/waycomv1/logo.svg",
+            "mainColor": "#F2F2F2"
+        }
+    ]
+}

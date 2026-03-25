@@ -1,0 +1,30 @@
+{
+    "label": "{{ label }}",
+    "name": "ovhtelecom_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["from_domain", "{{ server }}"],
+        ["allow", "!all,alaw,ulaw"],
+        ["send_pai", "yes"]
+    ],
+    "registration_section_options": [
+        ["expiration", "1800"],
+        ["retry_interval", "60"],
+        ["line", "yes"],
+        ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
+        ["server_uri", "sip:{{ server }}:5060"],
+        ["contact_user", "{{ username }}"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@{{ server }}:5060"]
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "variables": [
+        {
+            "name": "label",
+            "label": [
+                {"language": "fr_CA", "value": "Étiquette"},
+                {"language": "fr_FR", "value": "Étiquette"},
+                {"language": "en_US", "value": "Label"}
+            ],
+            "required": true,
+            "default": "bOnline"
+        },
+        {
+            "name": "domain",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur Proxy"},
+                {"language": "fr_FR", "value": "Serveur Proxy"},
+                {"language": "en_US", "value": "Proxy Server"}
+            ],
+            "required": true,
+            "default": "10.0.4.75",
+            "choices":[
+                "10.0.4.75",
+                "10.0.3.190"
+            ]
+        },
+        {
+            "name": "client_ref",
+            "label": [
+                {"language": "fr_CA", "value": "Ref. Client"},
+                {"language": "fr_FR", "value": "Ref. Client"},
+                {"language": "en_US", "value": "Ref. Client"}
+            ],
+            "required": true,
+            "default": ""
+        }
+    ]
+}

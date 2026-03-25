@@ -1,0 +1,33 @@
+{
+    "label": "{{ label }}",
+    "name": "btel_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["identify_by", "header,auth_username,username"],
+        ["contact_user", "{{ username }}"],
+        ["send_pai", "yes"],
+        ["allow", "!all,alaw"],
+        ["send_diversion", "no"],
+        ["set_var", "PJSIP_HEADER(add,P-Preferred-Identity)=<sip:{{ username }}@{{ server }}>"]
+    ],
+    "registration_section_options": [
+        ["expiration", "600"],
+        ["line", "yes"],
+        ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
+        ["server_uri", "sip:{{ server }}:5060"],
+        ["contact_user", "{{ username }}"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@{{ server }}:5060"],
+        ["qualify_frequency", "10"]
+    ]
+}
