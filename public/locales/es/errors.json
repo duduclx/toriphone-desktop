@@ -1,0 +1,13 @@
+{
+    "404": "Recurso no encontrado",
+    "general": "Error: {{message}}",
+    "input": "Error de entrada",
+    "invalidRange": "El intervalo no es correcto.",
+    "requiredEndSlot": "Se requiere el número final.",
+    "requiredName": "Se requiere el nombre.",
+    "requiredNumber": "¡Se requiere el número!",
+    "requiredStartSlot": "Se requiere el número inicial.",
+    "unknown": "Se produjo un error desconocido",
+    "unknownField": "Campo desconocido."
+  }
+  

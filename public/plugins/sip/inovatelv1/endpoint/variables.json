@@ -1,0 +1,51 @@
+{
+    "variables": [
+        {
+            "name": "label",
+            "label": [
+                {"language": "fr_CA", "value": "Etiquette"},
+                {"language": "fr_FR", "value": "Etiquette"},
+                {"language": "en_US", "value": "Label"}
+            ],
+            "required": true,
+            "default": "Inovatel"
+        },
+        {
+            "name": "trunk_type",
+            "label": [
+                {"language": "fr_CA", "value": "Type"},
+                {"language": "fr_FR", "value": "Type"},
+                {"language": "en_US", "value": "Type"}
+            ],
+            "required": true,
+            "default": "Trunk",
+            "choices":[
+                "Trunk",
+                "911"
+            ]
+        },
+        {
+            "name": "did_num",
+            "label": [
+                {"language": "fr_CA", "value": "Numero(s) - Format ( .*Num1.*|.*Num2.* )"},
+                {"language": "fr_FR", "value": "Numero(s) - Format ( .*Num1.*|.*Num2.* )"},
+                {"language": "en_US", "value": "Number(s) - Format ( .*Num1.*|.*Num2.* )"}
+            ],
+            "required": false
+        },
+        {
+            "name": "server",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur SIP"},
+                {"language": "fr_FR", "value": "Serveur SIP"},
+                {"language": "en_US", "value": "SIP server"}
+            ],
+            "required": true,
+            "default": "sbc1.inovatel.ca",
+            "choices":[
+                "sbc1.inovatel.ca",
+                "sbc911.inovatel.ca"
+            ]
+        }
+    ]
+}

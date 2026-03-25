@@ -1,0 +1,31 @@
+{
+    "label": "{{ label }}",
+    "name": "telnyx_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["identify_by", "header,username"],
+        ["dtmf_mode", "rfc4733"],
+        ["send_pai", "yes"],
+        ["allow", "!all,ulaw,alaw,g722"]
+    ],
+    "registration_section_options": [
+        ["line", "yes"],
+        ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
+        ["server_uri", "sip:{{ server }}:5060"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@{{ server }}:5060"]
+    ],
+    "identify_section_options": [
+        ["match", "{{ server }}"]
+    ]
+}

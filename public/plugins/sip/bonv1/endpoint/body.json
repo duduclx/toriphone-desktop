@@ -1,0 +1,19 @@
+{
+    "label": "{{ label }}",
+    "name": "bonline_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["send_pai", "yes"],
+        ["direct_media", "no"],
+        ["send_diversion", "no"],
+        ["allow", "!all,alaw,ulaw,opus"],
+        ["set_var", "PJSIP_HEADER(add,X-CUSTOMER-ID)={{ client_ref }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ domain }}:5060"]
+    ],
+    "identify_section_options": [
+        ["match_header", "X-CUSTOMER-ID: {{ client_ref }}"]
+    ]
+}

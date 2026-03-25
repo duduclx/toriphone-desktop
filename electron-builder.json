@@ -1,0 +1,26 @@
+{
+  "appId": "fr.toriphone.app",
+  "productName": "ToriPhone desktop",
+  "copyright": "Copyright © 2025 ToriPhone",
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "public/locales/**/*"],
+  "directories": {
+    "buildResources": "assets",
+    "output": "dist_electron"
+  },
+  "icon": "./public/icons/toriappicon.png",
+  "linux": {
+    "target": "snap",
+    "category": "Utility",
+    "maintainer": "julien dutilleul <julien.dutilleul.grenoble@gmail.com>"
+  },
+  "win": {
+    "target": "msi"
+  },
+  "mac": {
+    "target": "dmg",
+    "category": "public.app-category.utilities"
+  }
+}

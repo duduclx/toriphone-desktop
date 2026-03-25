@@ -1,0 +1,51 @@
+{
+    "variables": [
+        {
+            "name": "label",
+            "label": [
+                {"language": "fr_CA", "value": "Étiquette"},
+                {"language": "fr_FR", "value": "Étiquette"},
+                {"language": "en_US", "value": "Label"}
+            ],
+            "required": true,
+            "default": "OVH Telecom"
+        },
+        {
+            "name": "username",
+            "label": [
+                {"language": "fr_CA", "value": "Nom d'utilisateur"},
+                {"language": "fr_FR", "value": "Nom d'utilisateur"},
+                {"language": "en_US", "value": "Username"}
+            ],
+            "required": true
+        },
+        {
+            "name": "password",
+            "label": [
+                {"language": "fr_CA", "value": "Mot de passe"},
+                {"language": "fr_FR", "value": "Mot de passe"},
+                {"language": "en_US", "value": "Password"}
+            ],
+            "required": true
+        },
+        {
+            "name": "server",
+            "label": [
+                {"language": "fr_CA", "value": "Proxy SIP"},
+                {"language": "fr_FR", "value": "Proxy SIP"},
+                {"language": "en_US", "value": "Proxy SIP"}
+            ],
+            "required": true,
+            "default": "siptrunk.ovh.net",
+            "choices":[
+                "siptrunk.ovh.net",
+                "sip.ovh.fr",
+                "sip1.ovh.fr",
+                "sip2.ovh.fr",
+                "sip3.ovh.fr",
+                "sip4.ovh.fr",
+                "sip5.ovh.fr"
+            ]
+        }
+    ]
+}

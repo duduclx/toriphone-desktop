@@ -1,0 +1,109 @@
+{
+    "variables": [
+        {
+            "name": "label",
+            "label": [
+                {"language": "fr_CA", "value": "Étiquette"},
+                {"language": "fr_FR", "value": "Étiquette"},
+                {"language": "en_US", "value": "Label"}
+            ],
+            "required": true,
+            "default": "VoIP MS"
+        },
+        {
+            "name": "username",
+            "label": [
+                {"language": "fr_CA", "value": "Nom d'utilisateur"},
+                {"language": "fr_FR", "value": "Nom d'utilisateur"},
+                {"language": "en_US", "value": "Username"}
+            ],
+            "required": true
+        },
+        {
+            "name": "password",
+            "label": [
+                {"language": "fr_CA", "value": "Mot de passe"},
+                {"language": "fr_FR", "value": "Mot de passe"},
+                {"language": "en_US", "value": "Password"}
+            ],
+            "required": true
+        },
+        {
+            "name": "server",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur"},
+                {"language": "fr_FR", "value": "Serveur"},
+                {"language": "en_US", "value": "Server"}
+            ],
+            "required": true,
+            "default": "montreal.voip.ms",
+            "choices":[
+                "amsterdam.voip.ms",
+                "atlanta.voip.ms",
+                "atlanta2.voip.ms",
+                "chicago.voip.ms",
+                "chicago2.voip.ms",
+                "chicago3.voip.ms",
+                "chicago4.voip.ms",
+                "chicago5.voip.ms",
+                "chicago6.voip.ms",
+                "chicago7.voip.ms",
+                "dallas.voip.ms",
+                "dallas2.voip.ms",
+                "denver.voip.ms",
+                "denver2.voip.ms",
+                "houston.voip.ms",
+                "houston2.voip.ms",
+                "london.voip.ms",
+                "losangeles.voip.ms",
+                "losangeles2.voip.ms",
+                "losangeles3.voip.ms",
+                "losangeles4.voip.ms",
+                "melbourne.voip.ms",
+                "montreal.voip.ms",
+                "montreal10.voip.ms",
+                "montreal2.voip.ms",
+                "montreal3.voip.ms",
+                "montreal4.voip.ms",
+                "montreal5.voip.ms",
+                "montreal6.voip.ms",
+                "montreal7.voip.ms",
+                "montreal8.voip.ms",
+                "montreal9.voip.ms",
+                "newyork.voip.ms",
+                "newyork2.voip.ms",
+                "newyork3.voip.ms",
+                "newyork4.voip.ms",
+                "newyork5.voip.ms",
+                "newyork6.voip.ms",
+                "newyork7.voip.ms",
+                "newyork8.voip.ms",
+                "paris.voip.ms",
+                "sanjose.voip.ms",
+                "sanjose2.voip.ms",
+                "seattle.voip.ms",
+                "seattle2.voip.ms",
+                "seattle3.voip.ms",
+                "tampa.voip.ms",
+                "tampa2.voip.ms",
+                "tampa3.voip.ms",
+                "tampa4.voip.ms",
+                "toronto.voip.ms",
+                "toronto10.voip.ms",
+                "toronto2.voip.ms",
+                "toronto3.voip.ms",
+                "toronto4.voip.ms",
+                "toronto5.voip.ms",
+                "toronto6.voip.ms",
+                "toronto7.voip.ms",
+                "toronto8.voip.ms",
+                "toronto9.voip.ms",
+                "vancouver.voip.ms",
+                "vancouver2.voip.ms",
+                "vancouver3.voip.ms",
+                "washington.voip.ms",
+                "washington2.voip.ms"
+            ]
+        }
+    ]
+}

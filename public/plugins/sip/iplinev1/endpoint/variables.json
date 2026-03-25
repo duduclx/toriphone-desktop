@@ -1,0 +1,44 @@
+{
+    "variables": [
+        {
+            "name": "label",
+            "label": [
+                {"language": "fr_CA", "value": "Étiquette"},
+                {"language": "fr_FR", "value": "Étiquette"},
+                {"language": "en_US", "value": "Label"}
+            ],
+            "required": true,
+            "default": "IP Line"
+        },
+        {
+            "name": "username",
+            "label": [
+                {"language": "fr_CA", "value": "Nom d'utilisateur"},
+                {"language": "fr_FR", "value": "Nom d'utilisateur"},
+                {"language": "en_US", "value": "Username"}
+            ],
+            "required": true,
+            "default": ""
+        },
+        {
+            "name": "password",
+            "label": [
+                {"language": "fr_CA", "value": "Mot de passe"},
+                {"language": "fr_FR", "value": "Mot de passe"},
+                {"language": "en_US", "value": "Password"}
+            ],
+            "required": true,
+            "default": ""
+        },
+        {
+            "name": "domain",
+            "label": [
+                {"language": "fr_CA", "value": "Serveur Proxy"},
+                {"language": "fr_FR", "value": "Serveur Proxy"},
+                {"language": "en_US", "value": "Proxy Server"}
+            ],
+            "required": true,
+            "default": ""
+        }
+    ]
+}

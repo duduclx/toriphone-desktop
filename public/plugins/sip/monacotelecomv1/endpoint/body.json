@@ -1,0 +1,31 @@
+{
+    "label": "{{ label }}",
+    "name": "monacotelecom_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["identify_by", "header,auth_username,username"],
+        ["allow", "!all,alaw"]
+    ],
+    "registration_section_options": [
+        ["contact_user", "{{ username }}"],
+        ["line", "yes"],
+        ["client_uri", "sip:{{ username }}@siptrk.monaco-telecom.mc:5060"],
+        ["server_uri", "sip:siptrk.monaco-telecom.mc:5060"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@siptrk.monaco-telecom.mc:5060"]
+    ],
+    "identify_section_options": [
+        ["match_header", "Contact: /<sip:{{ username }}@.*>/"],
+        ["match", "siptrk.monaco-telecom.mc"]
+    ]
+}

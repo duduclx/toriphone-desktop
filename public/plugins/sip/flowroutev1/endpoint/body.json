@@ -1,0 +1,34 @@
+{
+    "label": "{{ label }}",
+    "name": "flowroute_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["send_pai", "yes"],
+        ["allow", "!all,alaw,ulaw"]
+    ],
+    "registration_section_options": [
+        ["line", "yes"],
+        ["support_path", "yes"],
+        ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
+        ["server_uri", "sip:{{ server }}:5060"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@{{ server }}:5060"]
+    ],
+    "identify_section_options": [
+        ["match", "147.75.60.160/28"],
+        ["match", "34.210.91.112/28"],
+        ["match", "34.226.36.32/28"],
+        ["match", "147.75.65.192/28"],
+        ["match", "{{ server }}"]
+    ]
+}

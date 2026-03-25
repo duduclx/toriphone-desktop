@@ -1,0 +1,83 @@
+{
+  "name": "toriphone-desktop",
+  "private": true,
+  "version": "0.5.0-2507",
+  "type": "module",
+  "main": "electron/electron.js",
+  "author": {
+    "name": "julien dutilleul",
+    "email": "julien.dutilleul.grenoble@gmail.com"
+  },
+  "description": "ToriPhone desktop",
+  "build": {
+    "appId": "fr.toriphone.app",
+    "productName": "ToriPhone desktop",
+    "copyright": "Copyright © 2024 ToriPhone",
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "public/locales/**/*"
+    ],
+    "directories": {
+      "buildResources": "assets",
+      "output": "dist_electron"
+    },
+    "linux": {
+      "target": "snap",
+      "icon": "public/icons/toriappicon.png",
+      "category": "Utility",
+      "maintainer": "julien dutilleul <julien.dutilleul.grenoble@gmail.com>"
+    },
+    "win": {
+      "target": "msi",
+      "icon": "public/icons/toriappicon.png"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "public/icons/toriappicon.png",
+      "category": "public.app-category.utilities"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "dev:electron": "concurrently -k \"cross-env BROWSER=none npm run dev\" \"npm run electron \"",
+    "build": "vite build",
+    "build:electron": "cross-env NODE_ENV=production electron-builder",
+    "electron": "wait-on tcp:3000 && cross-env IS_DEV=true electron .",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "build:for:electron": "cross-env ELECTRON=true vite build",
+    "app:build": "npm run build && npm run build:electron"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^3.29.0",
+    "@emotion/react": "^11.14.0",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.2.3",
+    "i18next": "^25.6.3",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "i18next-http-backend": "^3.0.2",
+    "next-themes": "^0.4.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-i18next": "^16.3.4",
+    "react-icons": "^5.5.0",
+    "react-paginate": "^8.3.0",
+    "toriphone-admin": "github:duduclx/toriphone-admin",
+    "toriphone-auth": "github:duduclx/toriphone-auth",
+    "wait-on": "^9.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.6",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "electron": "^41.0.4",
+    "electron-builder": "^26.0.12",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "vite": "^7.2.2"
+  }
+}

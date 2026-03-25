@@ -1,0 +1,31 @@
+{
+    "label": "{{ label }}",
+    "name": "flexnetwork_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["identify_by", "header,auth_username,username"],
+        ["allow", "!all,alaw"],
+        ["contact_user", "{{ username }}"],
+        ["timers_sess_expires", "1800"],
+        ["timers_min_se", "1200"]
+    ],
+    "registration_section_options": [
+        ["contact_user", "{{ username }}"],
+        ["expiration", "180"],
+        ["line", "yes"],
+        ["client_uri", "sip:{{ username }}@185.57.220.154:5060"],
+        ["server_uri", "sip:185.57.220.154:5060"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@185.57.220.154:5060"]
+    ]
+}

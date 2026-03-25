@@ -1,0 +1,34 @@
+{
+    "label": "{{ label }}",
+    "name": "voipms_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid":"{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["identify_by", "header,auth_username,username"],
+        ["from_user", "{{ username }}"],
+        ["contact_user", "{{ username }}"],
+        ["send_rpid", "yes"],
+        ["allow", "!all,g722,ulaw"]
+    ],
+    "registration_section_options": [
+        ["client_uri", "sip:{{ username }}@{{ server }}:5060"],
+        ["server_uri", "sip:{{ server }}:5060"],
+        ["line", "yes"],
+        ["contact_user", "{{ username }}"],
+        ["expiration", "60"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ username }}@{{ server }}"]
+    ],
+    "identify_section_options": [
+        ["match_header", "X-Dest-User: {{ username }}"]
+    ]
+}

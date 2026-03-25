@@ -1,0 +1,15 @@
+# build
+dist
+dist/
+dist-web
+dist-web/
+
+# vscode
+.vscode
+.vscode/*
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variable files
+.env

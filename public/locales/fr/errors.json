@@ -1,0 +1,12 @@
+{
+  "404": "Ressource introuvable",
+  "general": "Erreur: {{message}}",
+  "input": "Erreur de saisie",
+  "invalidRange": "L'interval n'est pas correct.",
+  "requiredEndSlot": "Le numéro de fin est requis.",
+  "requiredName": "Le nom est requis.",
+  "requiredNumber": "Le numéro est requis !",
+  "requiredStartSlot": "Le numéro de début est requis.",
+  "unknown": "Une erreur inconnue est survenue",
+  "unknownField": "Champ inconnu."
+}

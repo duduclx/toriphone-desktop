@@ -1,0 +1,21 @@
+{
+    "label": "{{ label }}",
+    "name": "agencetelecom_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["send_pai", "no"],
+        ["direct_media", "no"],
+        ["send_diversion", "no"],
+        ["allow", "!all,alaw"],
+        ["set_var", "PJSIP_HEADER(add,X-CUSTOMER-ID)={{ client_ref }}"],
+        ["set_var", "PJSIP_HEADER(add,X-SBC-IP)={{ sfr_sbc }}"],
+        ["set_var", "PJSIP_HEADER(add,X-Tenant-Trunk)={{ x_tenant_trunk }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ domain }}:{{ port }}"]
+    ],
+    "identify_section_options": [
+        ["match_header", "X-CUSTOMER-ID: {{ client_ref }}"]
+    ]
+}

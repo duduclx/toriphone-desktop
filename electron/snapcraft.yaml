@@ -1,0 +1,28 @@
+name: toriphone # Doit correspondre à l'enregistrement sur Snapcraft
+base: core22  # Utilise core22 (ou core20 si nécessaire)
+version: "1.0.0"  # Numéro de version de ton app
+summary: "Toriphone Desktop - Application Electron"  
+description: |
+  Toriphone Desktop est une application Electron permettant de gérer ...
+  
+grade: stable  # "devel" pour une version en développement
+confinement: strict  # "devmode" pour tester, "strict" pour le store
+
+apps:
+  toriphone-desktop:
+    command: toriphone-desktop
+    extensions: [gnome]
+    plugs:
+      - home
+      - network
+      - network-bind
+      - audio-playback
+      - opengl
+
+parts:
+  toriphone-desktop:
+    plugin: dump
+    source: .  # Dossier du projet
+    stage-packages:
+      - libnss3
+      - libasound2

@@ -1,0 +1,37 @@
+{
+    "label": "{{ label }}",
+    "name": "signalwire_trunk_{{ tenant_uuid }}_{{ suffix }}",
+    "transport": {"uuid": "{{ transport_uuid }}"},
+    "templates": [{"uuid": "{{ global_sip_template_uuid }}"}, {"uuid":"{{ registration_trunk_sip_template_uuid }}"}],
+    "endpoint_section_options": [
+        ["from_domain", "{{ username }}.sip.signalwire.com"],
+        ["from_user", "{{ username }}"],
+        ["rewrite_contact", "yes"],
+        ["media_encryption", "sdes"],
+        ["allow", "!all,ulaw,g722"]
+    ],
+    "registration_section_options": [
+        ["line", "yes"],
+        ["client_uri", "sip:{{ username }}@{{ sip_uri }}.sip.signalwire.com:5060"],
+        ["server_uri", "sip:{{ sip_uri }}.sip.signalwire.com:5060"]
+    ],
+    "registration_outbound_auth_section_options": [
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "outbound_auth_section_options": [
+        ["auth_type", "userpass"],
+        ["username", "{{ username }}"],
+        ["password", "{{ password }}"]
+    ],
+    "aor_section_options": [
+        ["contact", "sip:{{ sip_uri }}.sip.signalwire.com:5060"]
+    ],
+    "identify_section_options": [
+        ["match_header", "To: /<sip:.*@{{ sip_uri }}.sip.signalwire.com>/"],
+        ["match", "159.65.244.171"],
+        ["match", "178.128.235.81"],
+        ["match", "104.248.176.184"],
+        ["match", "45.32.95.52"]
+    ]
+}
